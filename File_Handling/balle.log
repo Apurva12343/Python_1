@@ -1,0 +1,21 @@
+2024-12-02 11:22:31,649 this is my info from 1
+2024-12-02 11:22:34,013 hiii
+2024-12-02 11:23:31,532 hii this is info
+2024-12-02 11:23:35,699 this is debug
+2024-12-02 11:23:37,825 this is my error
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside if statement and trying to check the type of the i is list or not[4, 5, 3]
+2024-12-02 11:23:47,465 i am inside another for loop4
+2024-12-02 11:23:47,465 now i am inside if statement to check the datattype is int or not
+2024-12-02 11:23:47,465 i am inside another for loop5
+2024-12-02 11:23:47,465 now i am inside if statement to check the datattype is int or not
+2024-12-02 11:23:47,465 i am inside another for loop3
+2024-12-02 11:23:47,465 now i am inside if statement to check the datattype is int or not
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 i am inside for loop
+2024-12-02 11:23:47,465 my final result for int is [1, 2, 3, 4, 45, 4, 5, 3] and str is ['Apurva', 'Tulika']
