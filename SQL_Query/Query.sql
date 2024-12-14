@@ -1,1 +1,1 @@
-SELECT * from HumanResources.Employee;
+SELECT * FROM HumanResources.Employee;
