@@ -1,0 +1,1055 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:05:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:05:04] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:05:04] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:05:16] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:27:21] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 596-431-533
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:28:11] "GET / HTTP/1.1" 200 -
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED36210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED35D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ECFA190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ECF9CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED21D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2EC47DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:28:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:28:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED78AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2EC47F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2EC47CE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35/url
+ERROR:root:Error occurred: HTTPConnectionPool(host='localhost', port=55495): Max retries exceeded with url: /session/935ef5d2b2e81acfaee2a7d9b6bc6e35/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2EC47790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED786B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED78270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2ED785A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/935ef5d2b2e81acfaee2a7d9b6bc6e35
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 18:29:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 596-431-533
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:34:14] "GET / HTTP/1.1" 200 -
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EB5E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EB6350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0E79F30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0E7A190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EA1D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0DC7CE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:34:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:34:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EF4AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0DC7CE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0DC7460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b/url
+ERROR:root:Error occurred: HTTPConnectionPool(host='localhost', port=58702): Max retries exceeded with url: /session/43e5f0808472440ff9a9e8db7684742b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0DC7790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EF46B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EF4270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BF0EF45A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43e5f0808472440ff9a9e8db7684742b
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:35:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:56:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:56:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:56:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Searching for: iphone
+INFO:root:No login popup found
+INFO:root:Scraped reviews: []
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:57:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:57:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 22:57:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 596-431-533
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2024 23:09:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2024 23:09:32] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2024 23:09:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Message: no such element: Unable to locate element: {"method":"css selector","selector":".B_NuCI"}
+  (Session info: chrome=131.0.6778.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D5D96CC5+28821]
+	(No symbol) [0x00007FF7D5D03850]
+	(No symbol) [0x00007FF7D5BA578A]
+	(No symbol) [0x00007FF7D5BF91BE]
+	(No symbol) [0x00007FF7D5BF94AC]
+	(No symbol) [0x00007FF7D5C42647]
+	(No symbol) [0x00007FF7D5C1F33F]
+	(No symbol) [0x00007FF7D5C3F412]
+	(No symbol) [0x00007FF7D5C1F0A3]
+	(No symbol) [0x00007FF7D5BEA778]
+	(No symbol) [0x00007FF7D5BEB8E1]
+	GetHandleVerifier [0x00007FF7D60CFCCD+3408029]
+	GetHandleVerifier [0x00007FF7D60E743F+3504143]
+	GetHandleVerifier [0x00007FF7D60DB61D+3455469]
+	GetHandleVerifier [0x00007FF7D5E5BDCB+835995]
+	(No symbol) [0x00007FF7D5D0EB6F]
+	(No symbol) [0x00007FF7D5D0A824]
+	(No symbol) [0x00007FF7D5D0A9BD]
+	(No symbol) [0x00007FF7D5CFA1A9]
+	BaseThreadInitThunk [0x00007FFA1EA4259D+29]
+	RtlUserThreadStart [0x00007FFA2036AF38+40]
+
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2024 23:09:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\Python\\Flipkart_Project\\fp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:11:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:11:54] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:Searching for: iphone
+INFO:root:No login popup found
+INFO:root:Scraped reviews: []
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:12:26] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:12:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:13:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:13:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Searching for: laptop
+INFO:root:No login popup found
+INFO:root:Scraped reviews: []
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:13:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.61 - - [17/Dec/2024 23:13:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:55:03,630 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-17 23:55:03,630 [33mPress CTRL+C to quit[0m
+2024-12-17 23:55:24,704 192.168.31.61 - - [17/Dec/2024 23:55:24] "GET / HTTP/1.1" 200 -
+2024-12-17 23:55:24,893 192.168.31.61 - - [17/Dec/2024 23:55:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:55:56,417 Flipkart Homepage
+2024-12-17 23:55:59,437 Sending search String
+2024-12-17 23:56:05,674 found product links
+2024-12-17 23:56:05,744 Opeing the product in new tab
+2024-12-17 23:56:08,885 going to new tab which is open
+2024-12-17 23:56:11,886 going to fetch product details
+2024-12-17 23:56:11,924 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN93HN/A  (13.3 inch, Silver, 1.29 kg)
+2024-12-17 23:56:11,937 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.52")>]
+2024-12-17 23:56:11,952 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.62")>]
+2024-12-17 23:56:11,966 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.72")>]
+2024-12-17 23:56:11,982 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.6BFB3C809C4531600B0E3BBE2AB2CDD0.d.D616D608C9E0486ADE603F1BDC24D74F.e.82")>]
+2024-12-17 23:56:12,096 closing the current tab
+2024-12-17 23:56:12,154 going back to to the products tab
+2024-12-17 23:56:12,268 Opeing the product in new tab
+2024-12-17 23:56:15,294 going to new tab which is open
+2024-12-17 23:56:18,295 going to fetch product details
+2024-12-17 23:56:18,324 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGND3HN/A  (13.3 inch, Gold, 1.29 kg)
+2024-12-17 23:56:18,335 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.46")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.47")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.48")>]
+2024-12-17 23:56:18,344 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.56")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.57")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.58")>]
+2024-12-17 23:56:18,353 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.66")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.67")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.68")>]
+2024-12-17 23:56:18,362 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.76")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.77")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.9E50C418AA9C662DFBBFA5EF183C4CA9.d.7381E1AA54442A9C46A03CD25E9ADC70.e.78")>]
+2024-12-17 23:56:18,447 closing the current tab
+2024-12-17 23:56:18,501 going back to to the products tab
+2024-12-17 23:56:18,664 Opeing the product in new tab
+2024-12-17 23:56:21,683 going to new tab which is open
+2024-12-17 23:56:24,684 going to fetch product details
+2024-12-17 23:56:24,705 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)
+2024-12-17 23:56:24,717 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.36")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.37")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.38")>]
+2024-12-17 23:56:24,730 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.46")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.47")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.48")>]
+2024-12-17 23:56:24,738 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.56")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.57")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.58")>]
+2024-12-17 23:56:24,748 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.66")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.67")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.C2A85D860E66631BF78169CC57000643.d.1841E8C77E40008CF90B923ABFA10AEA.e.68")>]
+2024-12-17 23:56:24,855 closing the current tab
+2024-12-17 23:56:24,914 going back to to the products tab
+2024-12-17 23:56:25,012 Opeing the product in new tab
+2024-12-17 23:56:28,056 going to new tab which is open
+2024-12-17 23:56:31,056 going to fetch product details
+2024-12-17 23:56:31,090 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-17 23:56:31,102 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.52")>]
+2024-12-17 23:56:31,113 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.62")>]
+2024-12-17 23:56:31,127 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.72")>]
+2024-12-17 23:56:31,139 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.867C9F1503957AC4C4EA5E1A619C00BB.d.5199F31DCB0E83CF781AE8814ADA7C13.e.82")>]
+2024-12-17 23:56:31,228 closing the current tab
+2024-12-17 23:56:31,283 going back to to the products tab
+2024-12-17 23:56:31,382 Opeing the product in new tab
+2024-12-17 23:56:34,404 going to new tab which is open
+2024-12-17 23:56:37,405 going to fetch product details
+2024-12-17 23:56:37,439 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-17 23:56:37,458 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.53")>]
+2024-12-17 23:56:37,469 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.62")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.63")>]
+2024-12-17 23:56:37,479 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.72")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.73")>]
+2024-12-17 23:56:37,487 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.82")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.1AFCE42DFA4EF319D8B98224DFD589E1.d.01AD2892A295992B61F123F7CF8EBB4F.e.83")>]
+2024-12-17 23:56:37,605 closing the current tab
+2024-12-17 23:56:37,659 going back to to the products tab
+2024-12-17 23:56:37,768 Opeing the product in new tab
+2024-12-17 23:56:40,790 going to new tab which is open
+2024-12-17 23:56:43,791 going to fetch product details
+2024-12-17 23:56:43,828 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXY3HN/A  (13.6 Inch, Silver, 1.24 Kg)
+2024-12-17 23:56:43,846 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.51")>]
+2024-12-17 23:56:43,867 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.61")>]
+2024-12-17 23:56:43,880 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.71")>]
+2024-12-17 23:56:43,892 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.0085BDFAA01FA3B610EE7263917EDC98.d.BFE2C82D9777F2F73CA48780DC82BFE5.e.81")>]
+2024-12-17 23:56:44,016 closing the current tab
+2024-12-17 23:56:44,072 going back to to the products tab
+2024-12-17 23:56:44,212 Opeing the product in new tab
+2024-12-17 23:56:47,232 going to new tab which is open
+2024-12-17 23:56:50,232 going to fetch product details
+2024-12-17 23:56:50,254 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-17 23:56:50,266 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.53")>]
+2024-12-17 23:56:50,276 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.62")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.63")>]
+2024-12-17 23:56:50,285 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.72")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.73")>]
+2024-12-17 23:56:50,294 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.82")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.998E0AFE3BAC89DC3F9789A9E16D1DF8.d.4F927EC32A73856FA0CAF48902B578E0.e.83")>]
+2024-12-17 23:56:50,377 closing the current tab
+2024-12-17 23:56:50,432 going back to to the products tab
+2024-12-17 23:56:50,522 Opeing the product in new tab
+2024-12-17 23:56:53,543 going to new tab which is open
+2024-12-17 23:56:56,544 going to fetch product details
+2024-12-17 23:56:56,569 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXT3HN/A  (13 Inch, Starlight, 1.24 Kg)
+2024-12-17 23:56:56,587 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.48")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.50")>]
+2024-12-17 23:56:56,599 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.58")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.60")>]
+2024-12-17 23:56:56,607 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.68")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.70")>]
+2024-12-17 23:56:56,616 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.78")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FD684134359178FD85BF3FCA1904C5DD.d.46D3290A0CAFFE413DEC89699AAD88FB.e.80")>]
+2024-12-17 23:56:56,705 closing the current tab
+2024-12-17 23:56:56,761 going back to to the products tab
+2024-12-17 23:56:56,857 Opeing the product in new tab
+2024-12-17 23:56:59,883 going to new tab which is open
+2024-12-17 23:57:02,884 going to fetch product details
+2024-12-17 23:57:02,911 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXQ3HN/A  (13 Inch, Silver, 1.24 Kg)
+2024-12-17 23:57:02,922 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.51")>]
+2024-12-17 23:57:02,933 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.61")>]
+2024-12-17 23:57:02,940 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.71")>]
+2024-12-17 23:57:02,951 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.EAE69B66B67D9C0E525AE5D7758EF9A4.d.E320E85055428D0DA8C0D983D6753378.e.81")>]
+2024-12-17 23:57:03,067 closing the current tab
+2024-12-17 23:57:03,120 going back to to the products tab
+2024-12-17 23:57:03,207 Opeing the product in new tab
+2024-12-17 23:57:06,230 going to new tab which is open
+2024-12-17 23:57:09,231 going to fetch product details
+2024-12-17 23:57:09,255 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRYT3HN/A  (15 Inch, Starlight, 1.51 Kg)
+2024-12-17 23:57:09,266 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.52")>]
+2024-12-17 23:57:09,276 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.62")>]
+2024-12-17 23:57:09,287 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.72")>]
+2024-12-17 23:57:09,303 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.F774118284DE965EFDB10A8DD4DCC0ED.d.0EB7CCEF01F663DD5266919CCE35AFF9.e.82")>]
+2024-12-17 23:57:09,448 closing the current tab
+2024-12-17 23:57:09,502 going back to to the products tab
+2024-12-17 23:57:09,600 Opeing the product in new tab
+2024-12-17 23:57:12,625 going to new tab which is open
+2024-12-17 23:57:15,626 going to fetch product details
+2024-12-17 23:57:15,697 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXV3HN/A  (13 Inch, Midnight, 1.24 Kg)
+2024-12-17 23:57:15,728 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.48")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.50")>]
+2024-12-17 23:57:15,751 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.58")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.60")>]
+2024-12-17 23:57:15,763 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.68")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.70")>]
+2024-12-17 23:57:15,774 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.78")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.4F957552342A2DC86415BF4DF4E7BCAF.d.709B5B437EB831EE684A3FDB3DE95A78.e.80")>]
+2024-12-17 23:57:15,866 closing the current tab
+2024-12-17 23:57:15,920 going back to to the products tab
+2024-12-17 23:57:16,065 Opeing the product in new tab
+2024-12-17 23:57:19,098 going to new tab which is open
+2024-12-17 23:57:22,098 going to fetch product details
+2024-12-17 23:57:22,135 Product name fetched Apple MacBook AIR Apple M2 - (16 GB/1 TB SSD/Mac OS Monterey) MLY43HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-17 23:57:22,149 reviewer name fetched []
+2024-12-17 23:57:22,159 Ratings fetched []
+2024-12-17 23:57:22,172 review heading fetched []
+2024-12-17 23:57:22,184 fetched all review details []
+2024-12-17 23:57:22,184 closing the current tab
+2024-12-17 23:57:22,260 going back to to the products tab
+2024-12-17 23:57:22,382 Opeing the product in new tab
+2024-12-17 23:57:25,421 going to new tab which is open
+2024-12-17 23:57:28,422 going to fetch product details
+2024-12-17 23:57:28,450 Product name fetched Apple MacBook Air Apple M3 - (16 GB/1 TB SSD/macOS Sonoma) MXCR3HN/A  (13 Inch, Midnight, 1.24 Kg)
+2024-12-17 23:57:28,460 reviewer name fetched []
+2024-12-17 23:57:28,471 Ratings fetched []
+2024-12-17 23:57:28,481 review heading fetched []
+2024-12-17 23:57:28,491 fetched all review details []
+2024-12-17 23:57:28,491 closing the current tab
+2024-12-17 23:57:28,548 going back to to the products tab
+2024-12-17 23:57:28,653 Opeing the product in new tab
+2024-12-17 23:57:31,676 going to new tab which is open
+2024-12-17 23:57:34,677 going to fetch product details
+2024-12-17 23:57:34,698 Product name fetched Apple MacBook Air Apple M3 - (16 GB/256 GB SSD/macOS Sonoma) MXCV3HN/A  (13 Inch, Starlight, 1.24 Kg)
+2024-12-17 23:57:34,706 reviewer name fetched []
+2024-12-17 23:57:34,716 Ratings fetched []
+2024-12-17 23:57:34,726 review heading fetched []
+2024-12-17 23:57:34,736 fetched all review details []
+2024-12-17 23:57:34,736 closing the current tab
+2024-12-17 23:57:34,790 going back to to the products tab
+2024-12-17 23:57:34,894 Opeing the product in new tab
+2024-12-17 23:57:37,917 going to new tab which is open
+2024-12-17 23:57:40,918 going to fetch product details
+2024-12-17 23:57:40,969 Product name fetched Apple MacBook Air Intel Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A  (13.3 inch, Silver, 1.35 kg)
+2024-12-17 23:57:40,989 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.42")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.43")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.44")>]
+2024-12-17 23:57:41,018 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.53")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.54")>]
+2024-12-17 23:57:41,031 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.62")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.63")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.64")>]
+2024-12-17 23:57:41,046 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.72")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.73")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.29CC6AC244C81E90785D947E9DF8BD1F.d.776BDE9C83C3E1FDE900A5D24DA196ED.e.74")>]
+2024-12-17 23:57:41,190 closing the current tab
+2024-12-17 23:57:41,249 going back to to the products tab
+2024-12-17 23:57:41,355 Opeing the product in new tab
+2024-12-17 23:57:44,380 going to new tab which is open
+2024-12-17 23:57:47,381 going to fetch product details
+2024-12-17 23:57:47,417 Product name fetched Apple MacBook Pro Apple M2 Max - (32 GB/1 TB SSD/macOS Ventura) MPHG3HN/A  (14 Inch, Space Grey, 1.63 Kg)
+2024-12-17 23:57:47,426 reviewer name fetched []
+2024-12-17 23:57:47,436 Ratings fetched []
+2024-12-17 23:57:47,444 review heading fetched []
+2024-12-17 23:57:47,452 fetched all review details []
+2024-12-17 23:57:47,452 closing the current tab
+2024-12-17 23:57:47,506 going back to to the products tab
+2024-12-17 23:57:47,617 Opeing the product in new tab
+2024-12-17 23:57:50,638 going to new tab which is open
+2024-12-17 23:57:53,639 going to fetch product details
+2024-12-17 23:57:53,682 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY03HN/A  (13.6 Inch, Silver, 1.24 kg)
+2024-12-17 23:57:53,699 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.52")>]
+2024-12-17 23:57:53,716 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.62")>]
+2024-12-17 23:57:53,729 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.72")>]
+2024-12-17 23:57:53,742 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.534588B6D82FF12A3EAAA9851F45326C.d.ECB71BAFBEA3EA127449050A29A7733C.e.82")>]
+2024-12-17 23:57:53,959 closing the current tab
+2024-12-17 23:57:54,016 going back to to the products tab
+2024-12-17 23:57:54,141 Opeing the product in new tab
+2024-12-17 23:57:57,162 going to new tab which is open
+2024-12-17 23:58:00,163 going to fetch product details
+2024-12-17 23:58:00,189 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY43HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-17 23:58:00,199 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.53")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.54")>]
+2024-12-17 23:58:00,210 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.62")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.63")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.64")>]
+2024-12-17 23:58:00,219 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.72")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.73")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.74")>]
+2024-12-17 23:58:00,228 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.82")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.83")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.AC73929FDFB1409544AE7E845D1253A5.d.1B636D5FE3B2D9569261C98B7F421E3D.e.84")>]
+2024-12-17 23:58:00,313 closing the current tab
+2024-12-17 23:58:00,367 going back to to the products tab
+2024-12-17 23:58:00,454 Opeing the product in new tab
+2024-12-17 23:58:03,482 going to new tab which is open
+2024-12-17 23:58:06,483 going to fetch product details
+2024-12-17 23:58:06,517 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLXX3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-17 23:58:06,531 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.51")>]
+2024-12-17 23:58:06,544 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.61")>]
+2024-12-17 23:58:06,554 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.71")>]
+2024-12-17 23:58:06,566 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.86FA7EDD359E180A02D2889AAE21939F.d.C83F417AC13454A7DDD605CE0E8F57EE.e.81")>]
+2024-12-17 23:58:06,681 closing the current tab
+2024-12-17 23:58:06,735 going back to to the products tab
+2024-12-17 23:58:06,860 Opeing the product in new tab
+2024-12-17 23:58:09,882 going to new tab which is open
+2024-12-17 23:58:12,883 going to fetch product details
+2024-12-17 23:58:12,918 Product name fetched Apple MacBook Pro Apple M3 Pro - (18 GB/512 GB SSD/macOS Sonoma) MRW13HN/A  (16 Inch, Space Black, 2.14 Kg)
+2024-12-17 23:58:12,931 reviewer name fetched []
+2024-12-17 23:58:12,943 Ratings fetched []
+2024-12-17 23:58:12,971 review heading fetched []
+2024-12-17 23:58:12,984 fetched all review details []
+2024-12-17 23:58:12,984 closing the current tab
+2024-12-17 23:58:13,039 going back to to the products tab
+2024-12-17 23:58:13,149 Opeing the product in new tab
+2024-12-17 23:58:16,196 going to new tab which is open
+2024-12-17 23:58:19,197 going to fetch product details
+2024-12-17 23:58:19,226 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY23HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-17 23:58:19,236 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.51")>]
+2024-12-17 23:58:19,246 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.61")>]
+2024-12-17 23:58:19,254 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.71")>]
+2024-12-17 23:58:19,264 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FC1D83229C672DA98C529008805C9756.d.20CF1E63357887E5DC93625426102FB5.e.81")>]
+2024-12-17 23:58:19,351 closing the current tab
+2024-12-17 23:58:19,414 going back to to the products tab
+2024-12-17 23:58:19,491 Opeing the product in new tab
+2024-12-17 23:58:22,516 going to new tab which is open
+2024-12-17 23:58:25,517 going to fetch product details
+2024-12-17 23:58:25,545 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRXR3HN/A  (13 Inch, Silver, 1.24 Kg)
+2024-12-17 23:58:25,555 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.51")>]
+2024-12-17 23:58:25,564 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.61")>]
+2024-12-17 23:58:25,573 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.71")>]
+2024-12-17 23:58:25,581 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.199C549CFAE70B6ADC5C410C745B35B6.d.17725457F993FFB92E3387F470FFE5EB.e.81")>]
+2024-12-17 23:58:25,667 closing the current tab
+2024-12-17 23:58:25,721 going back to to the products tab
+2024-12-17 23:58:25,827 Opeing the product in new tab
+2024-12-17 23:58:28,853 going to new tab which is open
+2024-12-17 23:58:31,853 going to fetch product details
+2024-12-17 23:58:31,877 Product name fetched Apple MacBook Air Apple M1 - (8 GB/512 GB SSD/Mac OS Big Sur) Z12400092  (13.3 inch, Space Grey, 1.29 kg)
+2024-12-17 23:58:31,886 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.48")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.50")>]
+2024-12-17 23:58:31,896 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.58")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.60")>]
+2024-12-17 23:58:31,905 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.68")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.70")>]
+2024-12-17 23:58:31,914 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.78")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.FB98948B884CFD373624F8FC9429A88B.d.653F8E5C45BE9A25C93DA6DD934E8C39.e.80")>]
+2024-12-17 23:58:32,002 closing the current tab
+2024-12-17 23:58:32,059 going back to to the products tab
+2024-12-17 23:58:32,135 Opeing the product in new tab
+2024-12-17 23:58:35,166 going to new tab which is open
+2024-12-17 23:58:38,167 going to fetch product details
+2024-12-17 23:58:38,193 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRYQ3HN/A  (15 Inch, Silver, 1.51 Kg)
+2024-12-17 23:58:38,202 reviewer name fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.48")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.50")>]
+2024-12-17 23:58:38,214 Ratings fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.58")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.60")>]
+2024-12-17 23:58:38,223 review heading fetched [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.68")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.70")>]
+2024-12-17 23:58:38,232 fetched all review details [<selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.78")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="57449b18e43806daf3c704962b384522", element="f.BDB78D3BD33B57C599F7DCE6729310BE.d.0E55B2B9DC05CF867C324032BBE21FFB.e.80")>]
+2024-12-17 23:58:38,315 closing the current tab
+2024-12-17 23:58:38,369 going back to to the products tab
+2024-12-17 23:58:40,796 192.168.31.61 - - [17/Dec/2024 23:58:40] "POST /review HTTP/1.1" 200 -
+2024-12-17 23:58:40,847 192.168.31.61 - - [17/Dec/2024 23:58:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:04:19,056 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:04:19,057 [33mPress CTRL+C to quit[0m
+2024-12-18 00:04:40,327 192.168.31.61 - - [18/Dec/2024 00:04:40] "GET / HTTP/1.1" 200 -
+2024-12-18 00:04:40,573 192.168.31.61 - - [18/Dec/2024 00:04:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:04:56,563 Flipkart Homepage
+2024-12-18 00:04:59,631 Sending search String
+2024-12-18 00:05:05,877 found product links
+2024-12-18 00:05:08,343 192.168.31.61 - - [18/Dec/2024 00:05:08] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:05:08,365 192.168.31.61 - - [18/Dec/2024 00:05:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:05:13,595 192.168.31.61 - - [18/Dec/2024 00:05:13] "GET / HTTP/1.1" 200 -
+2024-12-18 00:05:44,181 192.168.31.61 - - [18/Dec/2024 00:05:44] "GET / HTTP/1.1" 200 -
+2024-12-18 00:05:44,215 192.168.31.61 - - [18/Dec/2024 00:05:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:05:57,309 Flipkart Homepage
+2024-12-18 00:06:00,343 Sending search String
+2024-12-18 00:06:06,507 found product links
+2024-12-18 00:06:06,584 Opeing the product in new tab
+2024-12-18 00:06:09,611 going to new tab which is open
+2024-12-18 00:06:12,638 Product name fetched Whirlpool 8 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (MAGIC CLEAN PRO SW H 8 KG GREY 10YMW)
+2024-12-18 00:06:12,778 closing the current tab
+2024-12-18 00:06:12,841 going back to to the products tab
+2024-12-18 00:06:13,031 Opeing the product in new tab
+2024-12-18 00:06:16,072 going to new tab which is open
+2024-12-18 00:06:19,095 Product name fetched Whirlpool 7.5 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (MAGIC CLEAN PRO SW 7.5 (H) GREY 10YMW)
+2024-12-18 00:06:19,227 closing the current tab
+2024-12-18 00:06:19,287 going back to to the products tab
+2024-12-18 00:06:19,413 Opeing the product in new tab
+2024-12-18 00:06:22,439 going to new tab which is open
+2024-12-18 00:06:25,505 Product name fetched SAMSUNG 7 kg 5 star, Ecobubble, Digital Inverter, Fully Automatic Top Load Washing Machine Grey  (WA70BG4441YYTL)
+2024-12-18 00:06:25,786 closing the current tab
+2024-12-18 00:06:25,840 going back to to the products tab
+2024-12-18 00:06:25,954 Opeing the product in new tab
+2024-12-18 00:06:29,058 going to new tab which is open
+2024-12-18 00:06:32,087 Product name fetched Haier 6.5 kg Balance Clean Pulsator, Custom Wash Cycles with 15 Mins Quick Wash, Magic Filter Fully Automatic Top Load Washing Machine Brown, Grey  (HWM65-FE)
+2024-12-18 00:06:32,226 closing the current tab
+2024-12-18 00:06:32,281 going back to to the products tab
+2024-12-18 00:06:32,384 Opeing the product in new tab
+2024-12-18 00:06:35,411 going to new tab which is open
+2024-12-18 00:06:38,440 Product name fetched Whirlpool 7 kg Magic Clean 5 Star Fully Automatic Top Load Washing Machine Grey  (MAGIC CLEAN 7.0 GENX GREY 5YMW)
+2024-12-18 00:06:38,573 closing the current tab
+2024-12-18 00:06:38,626 going back to to the products tab
+2024-12-18 00:06:38,735 Opeing the product in new tab
+2024-12-18 00:06:41,760 going to new tab which is open
+2024-12-18 00:06:44,787 Product name fetched realme TechLife 7.5 kg 5 Star Rating Semi Automatic Top Load Washing Machine Black, Grey  (RMSA755NNNDG)
+2024-12-18 00:06:44,915 closing the current tab
+2024-12-18 00:06:44,969 going back to to the products tab
+2024-12-18 00:06:45,062 Opeing the product in new tab
+2024-12-18 00:06:48,082 going to new tab which is open
+2024-12-18 00:06:51,104 Product name fetched SAMSUNG 8 kg 5 Star, Inverter, Hygiene Steam Digital Inverter Fully Automatic Front Load Washing Machine with In-built Heater White  (WW80T4040CE1TL)
+2024-12-18 00:06:51,247 closing the current tab
+2024-12-18 00:06:51,301 going back to to the products tab
+2024-12-18 00:06:51,396 Opeing the product in new tab
+2024-12-18 00:06:54,583 going to new tab which is open
+2024-12-18 00:06:57,612 Product name fetched InnoQ 7.5 kg | Turbo Wash | Buzzer | Wheels | Turbo Jet Dryer | Magic Filter | Lint Filter Semi Automatic Top Load Washing Machine Maroon  (75-TURBO-EXL-WM)
+2024-12-18 00:06:57,751 closing the current tab
+2024-12-18 00:06:57,805 going back to to the products tab
+2024-12-18 00:06:57,926 Opeing the product in new tab
+2024-12-18 00:07:00,956 going to new tab which is open
+2024-12-18 00:07:03,985 Product name fetched BOSCH 9 kg Fully Automatic Front Load Washing Machine with In-built Heater White  (WGA14200IN)
+2024-12-18 00:07:04,123 closing the current tab
+2024-12-18 00:07:04,179 going back to to the products tab
+2024-12-18 00:07:04,301 Opeing the product in new tab
+2024-12-18 00:07:07,323 going to new tab which is open
+2024-12-18 00:07:10,368 Product name fetched SAMSUNG 7 kg Diamond Drum Fully Automatic Top Load Washing Machine Silver  (WA70A4002GS/TL)
+2024-12-18 00:07:10,553 closing the current tab
+2024-12-18 00:07:10,608 going back to to the products tab
+2024-12-18 00:07:10,718 Opeing the product in new tab
+2024-12-18 00:07:13,746 going to new tab which is open
+2024-12-18 00:07:16,776 Product name fetched Whirlpool 9 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (MAGIC CLEAN BW PRO H 9 KG Mn GREY 10YMW)
+2024-12-18 00:07:16,898 closing the current tab
+2024-12-18 00:07:16,951 going back to to the products tab
+2024-12-18 00:07:17,045 Opeing the product in new tab
+2024-12-18 00:07:20,087 going to new tab which is open
+2024-12-18 00:07:23,119 Product name fetched Whirlpool 7 kg Fully Automatic Top Load Washing Machine with In-built Heater Black, Grey  (SW ROYAL PLUS 7.0 (H) Grey 10YMW)
+2024-12-18 00:07:23,258 closing the current tab
+2024-12-18 00:07:23,317 going back to to the products tab
+2024-12-18 00:07:23,426 Opeing the product in new tab
+2024-12-18 00:07:26,588 going to new tab which is open
+2024-12-18 00:07:29,621 Product name fetched Motorola 10.5 kg 5 Star Smart Wi-Fi Enabled Inverter Technology Fully Automatic Front Load with In-built Heater Grey  (105FLIWBM5DG)
+2024-12-18 00:07:29,767 closing the current tab
+2024-12-18 00:07:29,820 going back to to the products tab
+2024-12-18 00:07:29,913 Opeing the product in new tab
+2024-12-18 00:07:32,938 going to new tab which is open
+2024-12-18 00:07:35,961 Product name fetched Whirlpool 8 kg Steam Technology 5 Star Inverter 100+ Tough Stains, 6th Sense Soft Move Fully Automatic Front Load Washing Machine with In-built Heater Black  (XS8014BYM52E)
+2024-12-18 00:07:36,099 closing the current tab
+2024-12-18 00:07:36,156 going back to to the products tab
+2024-12-18 00:07:36,254 Opeing the product in new tab
+2024-12-18 00:07:39,383 going to new tab which is open
+2024-12-18 00:07:39,423 192.168.31.137 - - [18/Dec/2024 00:07:39] "GET / HTTP/1.1" 200 -
+2024-12-18 00:07:39,447 192.168.31.137 - - [18/Dec/2024 00:07:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-12-18 00:07:39,454 192.168.31.137 - - [18/Dec/2024 00:07:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-18 00:07:42,424 Product name fetched realme TechLife 7.5 kg 5 Star Rating Fabric Safe Wash Fully Automatic Top Load Washing Machine Grey  (RMFA75A5G)
+2024-12-18 00:07:42,573 closing the current tab
+2024-12-18 00:07:42,633 going back to to the products tab
+2024-12-18 00:07:42,738 Opeing the product in new tab
+2024-12-18 00:07:45,772 going to new tab which is open
+2024-12-18 00:07:48,795 Product name fetched realme TechLife 7 kg 5 Star rating Semi Automatic Top Load Washing Machine White, Black  (RMSA705NNNDW)
+2024-12-18 00:07:48,929 closing the current tab
+2024-12-18 00:07:48,983 going back to to the products tab
+2024-12-18 00:07:49,115 Opeing the product in new tab
+2024-12-18 00:07:52,147 going to new tab which is open
+2024-12-18 00:07:55,181 Product name fetched InnoQ 7.5 kg | Turbo Wash | Buzzer | Wheels | Turbo Jet Dryer | Magic Filter | Lint Filter Semi Automatic Top Load Washing Machine Grey  (75-TURBO-EXL-GB)
+2024-12-18 00:07:55,394 closing the current tab
+2024-12-18 00:07:55,449 going back to to the products tab
+2024-12-18 00:07:55,556 Opeing the product in new tab
+2024-12-18 00:07:58,581 going to new tab which is open
+2024-12-18 00:08:01,608 Product name fetched Whirlpool 7 kg Steam Technology 5 Star Inverter 100+ Tough Stains, 6th Sense Soft Move Fully Automatic Front Load Washing Machine with In-built Heater White  (XS7010BWW52E)
+2024-12-18 00:08:01,769 closing the current tab
+2024-12-18 00:08:01,823 going back to to the products tab
+2024-12-18 00:08:01,935 Opeing the product in new tab
+2024-12-18 00:08:04,970 going to new tab which is open
+2024-12-18 00:08:08,001 Product name fetched MOTOROLA 10 kg 5 star rating Midnight Series Semi Automatic Top Load Washing Machine Black  (MTSA1005NNNDB)
+2024-12-18 00:08:08,141 closing the current tab
+2024-12-18 00:08:08,198 going back to to the products tab
+2024-12-18 00:08:08,298 Opeing the product in new tab
+2024-12-18 00:08:11,377 going to new tab which is open
+2024-12-18 00:08:14,400 Product name fetched LG 8 kg 5 Star with Smart Inverter Technology, TurboDrum and Smart Diagnosis Fully Automatic Top Load Washing Machine Silver  (T80SKSF1Z)
+2024-12-18 00:08:14,529 closing the current tab
+2024-12-18 00:08:14,583 going back to to the products tab
+2024-12-18 00:08:14,694 Opeing the product in new tab
+2024-12-18 00:08:17,722 going to new tab which is open
+2024-12-18 00:08:20,746 Product name fetched Panasonic 8 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (NA-F80CH3CRB)
+2024-12-18 00:08:20,873 closing the current tab
+2024-12-18 00:08:20,932 going back to to the products tab
+2024-12-18 00:08:21,043 Opeing the product in new tab
+2024-12-18 00:08:24,066 going to new tab which is open
+2024-12-18 00:08:27,096 Product name fetched InnoQ 9.5 kg | Turbo Wash | Buzzer | Wheels | Turbo Jet Dryer | Magic Filter | Lint Filter Semi Automatic Top Load Washing Machine Maroon  (95-TURBO-EXL-WM)
+2024-12-18 00:08:27,218 closing the current tab
+2024-12-18 00:08:27,272 going back to to the products tab
+2024-12-18 00:08:27,364 Opeing the product in new tab
+2024-12-18 00:08:30,397 going to new tab which is open
+2024-12-18 00:08:33,422 Product name fetched IFB 7 kg 5 Star with Steam Refresh program, 9 Swirl Wash, Eco Inverter, Powered by AI with Wifi Fully Automatic Front Load Washing Machine with In-built Heater Grey  (SERENA GXN 7012)
+2024-12-18 00:08:33,545 closing the current tab
+2024-12-18 00:08:33,601 going back to to the products tab
+2024-12-18 00:08:33,694 Opeing the product in new tab
+2024-12-18 00:08:36,727 going to new tab which is open
+2024-12-18 00:08:39,751 Product name fetched LG 7 kg 5 Star with Wind Jet Dry, Collar Scrubber and Rust Free Plastic Base Semi Automatic Top Load Washing Machine Grey, White  (P7020NGAZ)
+2024-12-18 00:08:39,883 closing the current tab
+2024-12-18 00:08:39,938 going back to to the products tab
+2024-12-18 00:08:42,404 192.168.31.61 - - [18/Dec/2024 00:08:42] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:08:42,455 192.168.31.61 - - [18/Dec/2024 00:08:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.31.137 - - [18/Dec/2024 00:12:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.31.137 - - [18/Dec/2024 00:12:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.31.137 - - [18/Dec/2024 00:12:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Searching for: laptop
+INFO:root:No login popup found
+INFO:root:Scraped reviews: []
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 00:13:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:20:07,569 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:20:07,571 [33mPress CTRL+C to quit[0m
+2024-12-18 00:20:25,952 192.168.31.61 - - [18/Dec/2024 00:20:25] "GET / HTTP/1.1" 200 -
+2024-12-18 00:20:26,165 192.168.31.61 - - [18/Dec/2024 00:20:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:20:41,518 Error: ArgOptions.add_argument() missing 1 required positional argument: 'argument'
+2024-12-18 00:20:41,518 192.168.31.61 - - [18/Dec/2024 00:20:41] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:21:35,456 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:21:35,456 [33mPress CTRL+C to quit[0m
+2024-12-18 00:21:49,101 192.168.31.61 - - [18/Dec/2024 00:21:49] "GET / HTTP/1.1" 200 -
+2024-12-18 00:21:49,196 192.168.31.61 - - [18/Dec/2024 00:21:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:22:01,181 Flipkart Homepage
+2024-12-18 00:22:04,287 Sending search String
+2024-12-18 00:22:11,094 found product links
+2024-12-18 00:22:11,280 Opeing the product in new tab
+2024-12-18 00:22:14,323 going to new tab which is open
+2024-12-18 00:22:17,364 Product name fetched ONIDA 6.5 kg 5 Star 10 Wash Programs, Stainless Steel Drum, Fully Automatic Top Load Washing Machine White  (T65CBR)
+2024-12-18 00:22:17,539 closing the current tab
+2024-12-18 00:22:17,605 going back to to the products tab
+2024-12-18 00:22:17,825 Opeing the product in new tab
+2024-12-18 00:22:21,069 going to new tab which is open
+2024-12-18 00:22:24,105 Product name fetched Whirlpool 8 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (MAGIC CLEAN PRO SW H 8 KG GREY 10YMW)
+2024-12-18 00:22:24,326 closing the current tab
+2024-12-18 00:22:24,389 going back to to the products tab
+2024-12-18 00:22:24,560 Opeing the product in new tab
+2024-12-18 00:22:28,384 going to new tab which is open
+2024-12-18 00:22:31,473 Product name fetched SAMSUNG 7 kg 5 star, Ecobubble, Digital Inverter, Fully Automatic Top Load Washing Machine Grey  (WA70BG4441YYTL)
+2024-12-18 00:22:31,744 closing the current tab
+2024-12-18 00:22:31,834 going back to to the products tab
+2024-12-18 00:22:31,992 Opeing the product in new tab
+2024-12-18 00:22:35,236 going to new tab which is open
+2024-12-18 00:22:38,323 Product name fetched Haier 6.5 kg Balance Clean Pulsator, Custom Wash Cycles with 15 Mins Quick Wash, Magic Filter Fully Automatic Top Load Washing Machine Brown, Grey  (HWM65-FE)
+2024-12-18 00:22:38,642 closing the current tab
+2024-12-18 00:22:38,727 going back to to the products tab
+2024-12-18 00:22:38,902 Opeing the product in new tab
+2024-12-18 00:22:41,957 going to new tab which is open
+2024-12-18 00:22:45,023 Product name fetched Whirlpool 7 kg Magic Clean 5 Star Fully Automatic Top Load Washing Machine Grey  (MAGIC CLEAN 7.0 GENX GREY 5YMW)
+2024-12-18 00:22:45,306 closing the current tab
+2024-12-18 00:22:45,369 going back to to the products tab
+2024-12-18 00:22:45,538 Opeing the product in new tab
+2024-12-18 00:22:49,653 going to new tab which is open
+2024-12-18 00:22:52,710 Product name fetched realme TechLife 7.5 kg 5 Star Rating Semi Automatic Top Load Washing Machine Black, Grey  (RMSA755NNNDG)
+2024-12-18 00:22:53,009 closing the current tab
+2024-12-18 00:22:53,086 going back to to the products tab
+2024-12-18 00:22:53,264 Opeing the product in new tab
+2024-12-18 00:22:56,308 going to new tab which is open
+2024-12-18 00:22:59,335 Product name fetched SAMSUNG 8 kg 5 Star, Inverter, Hygiene Steam Digital Inverter Fully Automatic Front Load Washing Machine with In-built Heater White  (WW80T4040CE1TL)
+2024-12-18 00:22:59,538 closing the current tab
+2024-12-18 00:22:59,609 going back to to the products tab
+2024-12-18 00:22:59,755 Opeing the product in new tab
+2024-12-18 00:23:03,314 going to new tab which is open
+2024-12-18 00:23:06,349 Product name fetched Thomson 8 kg 5 Star Aqua Magic Grande Series with Floral Toughened Glass and Double Waterfall Semi Automatic Top Load Washing Machine Black, Grey  (TSG8000)
+2024-12-18 00:23:06,573 closing the current tab
+2024-12-18 00:23:06,641 going back to to the products tab
+2024-12-18 00:23:06,806 Opeing the product in new tab
+2024-12-18 00:23:09,870 going to new tab which is open
+2024-12-18 00:23:12,907 Product name fetched BOSCH 9 kg Fully Automatic Front Load Washing Machine with In-built Heater White  (WGA14200IN)
+2024-12-18 00:23:13,130 closing the current tab
+2024-12-18 00:23:13,203 going back to to the products tab
+2024-12-18 00:23:13,350 Opeing the product in new tab
+2024-12-18 00:23:16,393 going to new tab which is open
+2024-12-18 00:23:19,429 Product name fetched SAMSUNG 7 kg Diamond Drum Fully Automatic Top Load Washing Machine Silver  (WA70A4002GS/TL)
+2024-12-18 00:23:19,644 closing the current tab
+2024-12-18 00:23:19,708 going back to to the products tab
+2024-12-18 00:23:19,880 Opeing the product in new tab
+2024-12-18 00:23:23,097 going to new tab which is open
+2024-12-18 00:23:26,137 Product name fetched LG 7 kg 5 Star with Steam, Inverter Direct Drive Technology, 6 Motion DD, Touch Panel and 1200 RPM Fully Automatic Front Load Washing Machine with In-built Heater Black, Grey  (FHM1207SDM)
+2024-12-18 00:23:26,357 closing the current tab
+2024-12-18 00:23:26,417 going back to to the products tab
+2024-12-18 00:23:26,558 Opeing the product in new tab
+2024-12-18 00:23:29,599 going to new tab which is open
+2024-12-18 00:23:32,649 Product name fetched Thomson 10 kg 5 Star Aqua Magic Grande Series with Floral Toughened Glass with Soft Closure and Double Waterfall Semi Automatic Top Load Washing Machine Black, Grey  (TSG1000)
+2024-12-18 00:23:32,873 closing the current tab
+2024-12-18 00:23:32,964 going back to to the products tab
+2024-12-18 00:23:33,138 Opeing the product in new tab
+2024-12-18 00:23:36,182 going to new tab which is open
+2024-12-18 00:23:39,223 Product name fetched Motorola 10.5 kg 5 Star Smart Wi-Fi Enabled Inverter Technology Fully Automatic Front Load with In-built Heater Grey  (105FLIWBM5DG)
+2024-12-18 00:23:39,449 closing the current tab
+2024-12-18 00:23:39,509 going back to to the products tab
+2024-12-18 00:23:39,662 Opeing the product in new tab
+2024-12-18 00:23:43,159 going to new tab which is open
+2024-12-18 00:23:46,191 Product name fetched Godrej 7 kg 5 Star With Rain Shower Spin Washing Machine Semi Automatic Top Load Grey, White  (WS EDGE CLS 70 5.0 PN2 GPGR)
+2024-12-18 00:23:46,385 closing the current tab
+2024-12-18 00:23:46,445 going back to to the products tab
+2024-12-18 00:23:46,593 Opeing the product in new tab
+2024-12-18 00:23:49,656 going to new tab which is open
+2024-12-18 00:23:52,694 Product name fetched realme TechLife 7 kg 5 Star rating Semi Automatic Top Load Washing Machine White, Black  (RMSA705NNNDW)
+2024-12-18 00:23:52,919 closing the current tab
+2024-12-18 00:23:52,999 going back to to the products tab
+2024-12-18 00:23:53,130 Opeing the product in new tab
+2024-12-18 00:23:56,169 going to new tab which is open
+2024-12-18 00:23:59,226 Product name fetched realme TechLife 7.5 kg 5 Star Rating Fabric Safe Wash Fully Automatic Top Load Washing Machine Grey  (RMFA75A5G)
+2024-12-18 00:23:59,468 closing the current tab
+2024-12-18 00:23:59,535 going back to to the products tab
+2024-12-18 00:23:59,692 Opeing the product in new tab
+2024-12-18 00:24:02,752 going to new tab which is open
+2024-12-18 00:24:05,800 Product name fetched Whirlpool 7.5 kg Fully Automatic Top Load Washing Machine with In-built Heater Grey  (MAGIC CLEAN PRO SW 7.5 (H) GREY 10YMW)
+2024-12-18 00:24:06,045 closing the current tab
+2024-12-18 00:24:06,114 going back to to the products tab
+2024-12-18 00:24:06,261 Opeing the product in new tab
+2024-12-18 00:24:09,304 going to new tab which is open
+2024-12-18 00:24:12,344 Product name fetched Thomson 8 kg PureWash Fully Automatic Top Load Washing Machine Grey  (TTL8000S)
+2024-12-18 00:24:12,589 closing the current tab
+2024-12-18 00:24:12,656 going back to to the products tab
+2024-12-18 00:24:12,806 Opeing the product in new tab
+2024-12-18 00:24:15,931 going to new tab which is open
+2024-12-18 00:24:18,971 Product name fetched MOTOROLA 10 kg 5 star rating Midnight Series Semi Automatic Top Load Washing Machine Black  (MTSA1005NNNDB)
+2024-12-18 00:24:19,218 closing the current tab
+2024-12-18 00:24:19,300 going back to to the products tab
+2024-12-18 00:24:19,438 Opeing the product in new tab
+2024-12-18 00:24:22,486 going to new tab which is open
+2024-12-18 00:24:25,527 Product name fetched IFB 7 kg 5 Star with Steam Refresh program, 9 Swirl Wash, Eco Inverter, Powered by AI with Wifi Fully Automatic Front Load Washing Machine with In-built Heater Grey  (SERENA GXN 7012)
+2024-12-18 00:24:25,767 closing the current tab
+2024-12-18 00:24:25,840 going back to to the products tab
+2024-12-18 00:24:25,971 Opeing the product in new tab
+2024-12-18 00:24:29,017 going to new tab which is open
+2024-12-18 00:24:32,058 Product name fetched Panasonic 6.5 kg Fully Automatic Top Load Washing Machine Black, Grey  (NA-F65LF3CRB)
+2024-12-18 00:24:32,281 closing the current tab
+2024-12-18 00:24:32,344 going back to to the products tab
+2024-12-18 00:24:32,489 Opeing the product in new tab
+2024-12-18 00:24:35,526 going to new tab which is open
+2024-12-18 00:24:38,566 Product name fetched Thomson 7 kg 5 Star Aqua Magic Grande Series with Toughened Glass and Double Waterfall Semi Automatic Top Load Washing Machine Black, Grey  (TSG7000)
+2024-12-18 00:24:38,794 closing the current tab
+2024-12-18 00:24:38,854 going back to to the products tab
+2024-12-18 00:24:38,996 Opeing the product in new tab
+2024-12-18 00:24:42,443 going to new tab which is open
+2024-12-18 00:24:45,480 Product name fetched LG 8 kg 5 Star with Smart Inverter Technology, TurboDrum and Smart Diagnosis Fully Automatic Top Load Washing Machine Silver  (T80SKSF1Z)
+2024-12-18 00:24:45,705 closing the current tab
+2024-12-18 00:24:45,771 going back to to the products tab
+2024-12-18 00:24:45,916 Opeing the product in new tab
+2024-12-18 00:24:48,973 going to new tab which is open
+2024-12-18 00:24:52,020 Product name fetched Voltas Beko 8 kg Semi Automatic Top Load Washing Machine Blue, White  (WTT80UHA/OK5I0I0W01)
+2024-12-18 00:24:52,245 closing the current tab
+2024-12-18 00:24:52,300 going back to to the products tab
+2024-12-18 00:24:55,117 192.168.31.61 - - [18/Dec/2024 00:24:55] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:24:55,172 192.168.31.61 - - [18/Dec/2024 00:24:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:31:33,965 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:31:33,966 [33mPress CTRL+C to quit[0m
+2024-12-18 00:31:46,502 127.0.0.1 - - [18/Dec/2024 00:31:46] "GET / HTTP/1.1" 200 -
+2024-12-18 00:31:46,616 127.0.0.1 - - [18/Dec/2024 00:31:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:31:57,819 Flipkart Homepage
+2024-12-18 00:32:00,850 Sending search String
+2024-12-18 00:32:07,576 found product links
+2024-12-18 00:32:07,777 Opeing the product in new tab
+2024-12-18 00:32:12,133 going to new tab which is open
+2024-12-18 00:32:15,268 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-18 00:32:15,587 closing the current tab
+2024-12-18 00:32:15,660 going back to to the products tab
+2024-12-18 00:32:15,824 Opeing the product in new tab
+2024-12-18 00:32:19,588 going to new tab which is open
+2024-12-18 00:32:22,630 Product name fetched SAMSUNG Galaxy Book4 Metal Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-LG4IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)
+2024-12-18 00:32:22,858 closing the current tab
+2024-12-18 00:32:22,913 going back to to the products tab
+2024-12-18 00:32:23,110 Opeing the product in new tab
+2024-12-18 00:32:26,155 going to new tab which is open
+2024-12-18 00:32:29,215 Product name fetched Lenovo Chromebook MediaTek Kompanio 520 - (4 GB/128 GB EMMC Storage/Chrome OS) 14M868 Chromebook  (14 Inch, Abyss Blue, 1.3 Kg)
+2024-12-18 00:32:29,483 closing the current tab
+2024-12-18 00:32:29,545 going back to to the products tab
+2024-12-18 00:32:29,689 Opeing the product in new tab
+2024-12-18 00:32:33,139 going to new tab which is open
+2024-12-18 00:32:36,183 Product name fetched SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U - (16 GB/512 GB SSD/Windows 11 Home) NP750XGJ-KG2IN / NP750XGJ-LG2IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)
+2024-12-18 00:32:36,387 closing the current tab
+2024-12-18 00:32:36,440 going back to to the products tab
+2024-12-18 00:32:36,570 Opeing the product in new tab
+2024-12-18 00:32:39,598 going to new tab which is open
+2024-12-18 00:32:42,634 Product name fetched DELL Inspiron 3520 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop | Inspiron 3520 Thin and Light Laptop  (15.6 Inch, Platinum Silver, 1.65 Kg, With MS Office)
+2024-12-18 00:32:42,823 closing the current tab
+2024-12-18 00:32:42,883 going back to to the products tab
+2024-12-18 00:32:43,022 Opeing the product in new tab
+2024-12-18 00:32:46,060 going to new tab which is open
+2024-12-18 00:32:49,113 Product name fetched Acer Swift Go 14 OLED EVO Intel Core i7 13th Gen 13700H - (16 GB/512 GB SSD/Windows 11 Home) SFG14-71 Thin and Light Laptop  (14 inch, Silver, 1.25 kg, With MS Office)
+2024-12-18 00:32:49,347 closing the current tab
+2024-12-18 00:32:49,413 going back to to the products tab
+2024-12-18 00:32:49,605 Opeing the product in new tab
+2024-12-18 00:32:52,634 going to new tab which is open
+2024-12-18 00:32:55,693 Product name fetched DELL Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (38 cm, Carbon Black, 1.65 Kg, With MS Office)
+2024-12-18 00:32:55,941 closing the current tab
+2024-12-18 00:32:56,002 going back to to the products tab
+2024-12-18 00:32:56,123 Opeing the product in new tab
+2024-12-18 00:32:59,173 going to new tab which is open
+2024-12-18 00:33:02,232 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 00:33:02,471 closing the current tab
+2024-12-18 00:33:02,535 going back to to the products tab
+2024-12-18 00:33:02,662 Opeing the product in new tab
+2024-12-18 00:33:06,357 going to new tab which is open
+2024-12-18 00:33:09,396 Product name fetched Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/256 GB SSD/Windows 11 Home) A325-45 Thin and Light Laptop  (15.6 Inch, Steel Grey, 1.50 Kg)
+2024-12-18 00:33:09,659 closing the current tab
+2024-12-18 00:33:09,714 going back to to the products tab
+2024-12-18 00:33:09,839 Opeing the product in new tab
+2024-12-18 00:33:12,875 going to new tab which is open
+2024-12-18 00:33:15,915 Product name fetched Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/256 GB SSD/Windows 11 Home) A324-45 Thin and Light Laptop  (14 Inch, Pure Silver, 1.3 Kg)
+2024-12-18 00:33:16,132 closing the current tab
+2024-12-18 00:33:16,189 going back to to the products tab
+2024-12-18 00:33:16,309 Opeing the product in new tab
+2024-12-18 00:33:19,342 going to new tab which is open
+2024-12-18 00:33:22,406 Product name fetched HP Backlit Intel Core i5 12th Gen 1235U - (8 GB/512 GB SSD/Windows 11 Home) 15s-fy5002TU Thin and Light Laptop  (15.6 Inch, Natural Silver, 1.69 Kg, With MS Office)
+2024-12-18 00:33:22,614 closing the current tab
+2024-12-18 00:33:22,672 going back to to the products tab
+2024-12-18 00:33:22,785 Opeing the product in new tab
+2024-12-18 00:33:25,828 going to new tab which is open
+2024-12-18 00:33:28,867 Product name fetched SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-KG1IN / NP750XGJ-LG1IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)
+2024-12-18 00:33:29,089 closing the current tab
+2024-12-18 00:33:29,146 going back to to the products tab
+2024-12-18 00:33:29,306 Opeing the product in new tab
+2024-12-18 00:33:32,343 going to new tab which is open
+2024-12-18 00:33:35,390 Product name fetched Acer Chromebook Plus Google AI Intel Core i3 N305 - (8 GB/256 GB SSD/Chrome OS) CB514-4H-39T7 Chromebook  (14 Inch, Steel Gray, 1.43 Kg)
+2024-12-18 00:33:35,624 closing the current tab
+2024-12-18 00:33:35,681 going back to to the products tab
+2024-12-18 00:33:35,818 Opeing the product in new tab
+2024-12-18 00:33:38,871 going to new tab which is open
+2024-12-18 00:33:41,907 Product name fetched Acer Aspire Lite AMD Ryzen 5 Hexa Core 5625U - (16 GB/1 TB SSD/Windows 11 Home) AL15-41 Thin and Light Laptop  (15.6 Inch, Steel Grey, 1.59 Kg)
+2024-12-18 00:33:42,104 closing the current tab
+2024-12-18 00:33:42,159 going back to to the products tab
+2024-12-18 00:33:42,293 Opeing the product in new tab
+2024-12-18 00:33:45,360 going to new tab which is open
+2024-12-18 00:33:48,398 Product name fetched Acer Aspire 7 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) A715-76G-548J Gaming Laptop  (15.6 Inch, Charcoal Black, 2.1 Kg)
+2024-12-18 00:33:48,577 closing the current tab
+2024-12-18 00:33:48,640 going back to to the products tab
+2024-12-18 00:33:48,768 Opeing the product in new tab
+2024-12-18 00:33:51,845 going to new tab which is open
+2024-12-18 00:33:54,889 Product name fetched HP AMD Athlon Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 255 Laptop  (15.6 inch, Black)
+2024-12-18 00:33:55,113 closing the current tab
+2024-12-18 00:33:55,174 going back to to the products tab
+2024-12-18 00:33:55,372 Opeing the product in new tab
+2024-12-18 00:33:58,632 going to new tab which is open
+2024-12-18 00:34:01,696 Product name fetched Acer Aspire 3 Backlit Intel Core i5 12th Gen 1235U - (16 GB/512 GB SSD/Windows 11 Home) A324-51 Thin and Light Laptop  (14 Inch, Steel Gray, 1.45 Kg)
+2024-12-18 00:34:01,900 closing the current tab
+2024-12-18 00:34:01,953 going back to to the products tab
+2024-12-18 00:34:02,088 Opeing the product in new tab
+2024-12-18 00:34:05,128 going to new tab which is open
+2024-12-18 00:34:08,177 Product name fetched ASUS Vivobook 15 Intel Core i5 12th Gen 1235U - (8 GB/512 GB SSD/Windows 11 Home) X1504ZA-NJ521WS|X1504ZA-NJ520WS|X1504ZA-NJ528WS Thin and Light Laptop  (15.6 Inch, Quiet Blue, 1.7 Kg, With MS Office)
+2024-12-18 00:34:08,462 closing the current tab
+2024-12-18 00:34:08,539 going back to to the products tab
+2024-12-18 00:34:08,744 Opeing the product in new tab
+2024-12-18 00:34:11,823 going to new tab which is open
+2024-12-18 00:34:14,870 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-18 00:34:15,137 closing the current tab
+2024-12-18 00:34:15,196 going back to to the products tab
+2024-12-18 00:34:15,328 Opeing the product in new tab
+2024-12-18 00:34:18,396 going to new tab which is open
+2024-12-18 00:34:21,448 Product name fetched Lenovo IdeaPad 1 Intel Celeron Dual Core N4020 - (8 GB/512 GB SSD/Windows 11 Home) 14IGL7 Thin and Light Laptop  (14 Inch, Cloud Grey, 1.3 Kg, With MS Office)
+2024-12-18 00:34:21,712 closing the current tab
+2024-12-18 00:34:21,776 going back to to the products tab
+2024-12-18 00:34:21,940 Opeing the product in new tab
+2024-12-18 00:34:25,141 going to new tab which is open
+2024-12-18 00:34:28,238 Product name fetched Lenovo IdeaPad 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) 15IAU7 Thin and Light Laptop  (15.6 Inch, Arctic Grey, 1.63 Kg)
+2024-12-18 00:34:28,475 closing the current tab
+2024-12-18 00:34:28,540 going back to to the products tab
+2024-12-18 00:34:28,667 Opeing the product in new tab
+2024-12-18 00:34:31,700 going to new tab which is open
+2024-12-18 00:34:34,744 Product name fetched Lenovo IdeaPad Slim 1 AMD Ryzen 5 Hexa Core 5500U - (8 GB/512 GB SSD/Windows 11 Home) 15ACL6 | 15ALC7 2 Thin and Light Laptop  (39.62 cm, Cloud Grey, 1.65 kg, With MS Office)
+2024-12-18 00:34:34,959 closing the current tab
+2024-12-18 00:34:35,018 going back to to the products tab
+2024-12-18 00:34:35,186 Opeing the product in new tab
+2024-12-18 00:34:38,214 going to new tab which is open
+2024-12-18 00:34:41,252 Product name fetched DELL Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) Inspiron 3520 Thin and Light Laptop  (15.6 Inch, Carbon Black, 1.83 Kg, With MS Office)
+2024-12-18 00:34:41,477 closing the current tab
+2024-12-18 00:34:41,538 going back to to the products tab
+2024-12-18 00:34:41,657 Opeing the product in new tab
+2024-12-18 00:34:44,692 going to new tab which is open
+2024-12-18 00:34:47,737 Product name fetched HP Pavilion Intel Core i5 12th Gen 1235U - (16 GB/512 GB SSD/Windows 11 Home) 14-dv2014TU Thin and Light Laptop  (14 inch, Natural Silver, 1.41 Kg, With MS Office)
+2024-12-18 00:34:47,944 closing the current tab
+2024-12-18 00:34:47,999 going back to to the products tab
+2024-12-18 00:34:50,617 127.0.0.1 - - [18/Dec/2024 00:34:50] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:34:50,664 127.0.0.1 - - [18/Dec/2024 00:34:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:36:04,183 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:36:04,184 [33mPress CTRL+C to quit[0m
+2024-12-18 00:36:11,685 127.0.0.1 - - [18/Dec/2024 00:36:11] "GET / HTTP/1.1" 200 -
+2024-12-18 00:36:11,770 127.0.0.1 - - [18/Dec/2024 00:36:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:36:22,478 Flipkart Homepage
+2024-12-18 00:36:25,513 Sending search String
+2024-12-18 00:36:31,976 found product links
+2024-12-18 00:36:32,126 Opeing the product in new tab
+2024-12-18 00:36:35,256 going to new tab which is open
+2024-12-18 00:36:38,317 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-18 00:36:38,594 closing the current tab
+2024-12-18 00:36:38,649 going back to to the products tab
+2024-12-18 00:36:38,785 Opeing the product in new tab
+2024-12-18 00:36:41,813 going to new tab which is open
+2024-12-18 00:36:44,851 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-18 00:36:45,070 closing the current tab
+2024-12-18 00:36:45,126 going back to to the products tab
+2024-12-18 00:36:45,293 Opeing the product in new tab
+2024-12-18 00:36:48,328 going to new tab which is open
+2024-12-18 00:36:51,363 Product name fetched Lenovo Chromebook MediaTek Kompanio 520 - (4 GB/128 GB EMMC Storage/Chrome OS) 14M868 Chromebook  (14 Inch, Abyss Blue, 1.3 Kg)
+2024-12-18 00:36:51,599 closing the current tab
+2024-12-18 00:36:51,662 going back to to the products tab
+2024-12-18 00:36:51,773 Opeing the product in new tab
+2024-12-18 00:36:54,801 going to new tab which is open
+2024-12-18 00:36:57,843 Product name fetched SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U - (16 GB/512 GB SSD/Windows 11 Home) NP750XGJ-KG2IN / NP750XGJ-LG2IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)
+2024-12-18 00:36:58,060 closing the current tab
+2024-12-18 00:36:58,115 going back to to the products tab
+2024-12-18 00:36:58,238 Opeing the product in new tab
+2024-12-18 00:37:01,264 going to new tab which is open
+2024-12-18 00:37:04,312 Product name fetched DELL Inspiron 3520 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop | Inspiron 3520 Thin and Light Laptop  (15.6 Inch, Platinum Silver, 1.65 Kg, With MS Office)
+2024-12-18 00:37:04,651 closing the current tab
+2024-12-18 00:37:04,720 going back to to the products tab
+2024-12-18 00:37:04,854 Opeing the product in new tab
+2024-12-18 00:37:07,890 going to new tab which is open
+2024-12-18 00:37:10,935 Product name fetched Lenovo IdeaPad 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) 15IAU7 Thin and Light Laptop  (15.6 Inch, Arctic Grey, 1.63 Kg)
+2024-12-18 00:37:11,159 closing the current tab
+2024-12-18 00:37:11,217 going back to to the products tab
+2024-12-18 00:37:11,337 Opeing the product in new tab
+2024-12-18 00:37:14,376 going to new tab which is open
+2024-12-18 00:37:17,431 Product name fetched DELL Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (38 cm, Carbon Black, 1.65 Kg, With MS Office)
+2024-12-18 00:37:17,685 closing the current tab
+2024-12-18 00:37:17,746 going back to to the products tab
+2024-12-18 00:37:17,905 Opeing the product in new tab
+2024-12-18 00:37:20,930 going to new tab which is open
+2024-12-18 00:37:24,026 Product name fetched Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/256 GB SSD/Windows 11 Home) A324-45 Thin and Light Laptop  (14 Inch, Pure Silver, 1.3 Kg)
+2024-12-18 00:37:24,272 closing the current tab
+2024-12-18 00:37:24,335 going back to to the products tab
+2024-12-18 00:37:24,484 Opeing the product in new tab
+2024-12-18 00:37:27,523 going to new tab which is open
+2024-12-18 00:37:30,566 Product name fetched SAMSUNG Galaxy Book4 Metal Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-LG4IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)
+2024-12-18 00:37:30,896 closing the current tab
+2024-12-18 00:37:30,961 going back to to the products tab
+2024-12-18 00:37:31,113 Opeing the product in new tab
+2024-12-18 00:37:34,168 going to new tab which is open
+2024-12-18 00:37:37,204 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 00:37:37,404 closing the current tab
+2024-12-18 00:37:37,458 going back to to the products tab
+2024-12-18 00:37:37,576 Opeing the product in new tab
+2024-12-18 00:37:40,655 going to new tab which is open
+2024-12-18 00:37:43,699 Product name fetched Lenovo IdeaPad Slim 1 AMD Ryzen 5 Hexa Core 5500U - (8 GB/512 GB SSD/Windows 11 Home) 15ACL6 | 15ALC7 2 Thin and Light Laptop  (39.62 cm, Cloud Grey, 1.65 kg, With MS Office)
+2024-12-18 00:37:43,930 closing the current tab
+2024-12-18 00:37:43,987 going back to to the products tab
+2024-12-18 00:37:44,160 Opeing the product in new tab
+2024-12-18 00:37:47,399 going to new tab which is open
+2024-12-18 00:37:50,481 Product name fetched Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 12450H - (8 GB/512 GB SSD/Windows 11 Home) 15IAH8 Thin and Light Laptop  (15.6 Inch, Arctic Grey, 1.62 Kg, With MS Office)
+2024-12-18 00:37:50,736 closing the current tab
+2024-12-18 00:37:50,791 going back to to the products tab
+2024-12-18 00:37:50,931 Opeing the product in new tab
+2024-12-18 00:37:53,960 going to new tab which is open
+2024-12-18 00:37:56,997 Product name fetched Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/256 GB SSD/Windows 11 Home) A325-45 Thin and Light Laptop  (15.6 Inch, Steel Grey, 1.50 Kg)
+2024-12-18 00:37:57,210 closing the current tab
+2024-12-18 00:37:57,266 going back to to the products tab
+2024-12-18 00:37:57,380 Opeing the product in new tab
+2024-12-18 00:38:00,414 going to new tab which is open
+2024-12-18 00:38:03,482 Product name fetched Acer Chromebook Plus Google AI Intel Core i3 N305 - (8 GB/256 GB SSD/Chrome OS) CB514-4H-39T7 Chromebook  (14 Inch, Steel Gray, 1.43 Kg)
+2024-12-18 00:38:03,780 closing the current tab
+2024-12-18 00:38:03,872 going back to to the products tab
+2024-12-18 00:38:04,026 Opeing the product in new tab
+2024-12-18 00:38:08,278 going to new tab which is open
+2024-12-18 00:38:11,307 Product name fetched Acer Aspire Lite AMD Ryzen 5 Hexa Core 5625U - (16 GB/1 TB SSD/Windows 11 Home) AL15-41 Thin and Light Laptop  (15.6 Inch, Steel Grey, 1.59 Kg)
+2024-12-18 00:38:11,508 closing the current tab
+2024-12-18 00:38:11,565 going back to to the products tab
+2024-12-18 00:38:11,659 Opeing the product in new tab
+2024-12-18 00:38:14,737 going to new tab which is open
+2024-12-18 00:38:17,771 Product name fetched Acer Aspire 7 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) A715-76G-548J Gaming Laptop  (15.6 Inch, Charcoal Black, 2.1 Kg)
+2024-12-18 00:38:18,041 closing the current tab
+2024-12-18 00:38:18,096 going back to to the products tab
+2024-12-18 00:38:18,270 Opeing the product in new tab
+2024-12-18 00:38:21,300 going to new tab which is open
+2024-12-18 00:38:24,333 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY43HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 00:38:24,571 closing the current tab
+2024-12-18 00:38:24,627 going back to to the products tab
+2024-12-18 00:38:24,769 Opeing the product in new tab
+2024-12-18 00:38:27,800 going to new tab which is open
+2024-12-18 00:38:30,859 Product name fetched Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 12450H - (8 GB/512 GB SSD/Windows 11 Home) 14IAH8 Thin and Light Laptop  (14 Inch, Arctic Grey, 1.37 Kg, With MS Office)
+2024-12-18 00:38:31,055 closing the current tab
+2024-12-18 00:38:31,113 going back to to the products tab
+2024-12-18 00:38:31,246 Opeing the product in new tab
+2024-12-18 00:38:34,284 going to new tab which is open
+2024-12-18 00:38:37,323 Product name fetched HP AMD Athlon Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 255 Laptop  (15.6 inch, Black)
+2024-12-18 00:38:37,496 closing the current tab
+2024-12-18 00:38:37,552 going back to to the products tab
+2024-12-18 00:38:37,656 Opeing the product in new tab
+2024-12-18 00:38:40,677 going to new tab which is open
+2024-12-18 00:38:43,710 Product name fetched Lenovo V14 Intel Core i5 12th Gen 1235U - (8 GB/512 GB SSD/Windows 11 Home) V14 ITL G2 Thin and Light Laptop  (14 inch, Iron Grey, 1.6 kg)
+2024-12-18 00:38:43,959 closing the current tab
+2024-12-18 00:38:44,019 going back to to the products tab
+2024-12-18 00:38:44,144 Opeing the product in new tab
+2024-12-18 00:38:47,169 going to new tab which is open
+2024-12-18 00:38:50,244 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY23HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-18 00:38:50,596 closing the current tab
+2024-12-18 00:38:50,677 going back to to the products tab
+2024-12-18 00:38:50,871 Opeing the product in new tab
+2024-12-18 00:38:53,969 going to new tab which is open
+2024-12-18 00:38:57,001 Product name fetched Lenovo Yoga 7 Intel Core i5 13th Gen 1340P - (16 GB/512 GB SSD/Windows 11 Home) 14IRL8 Thin and Light Laptop  (14 Inch, Storm Grey, 1.49 Kg, With MS Office)
+2024-12-18 00:38:57,187 closing the current tab
+2024-12-18 00:38:57,243 going back to to the products tab
+2024-12-18 00:38:57,350 Opeing the product in new tab
+2024-12-18 00:39:00,406 going to new tab which is open
+2024-12-18 00:39:03,448 Product name fetched Lenovo IdeaPad 1 Intel Celeron Dual Core N4020 - (8 GB/512 GB SSD/Windows 11 Home) 14IGL7 Thin and Light Laptop  (14 Inch, Cloud Grey, 1.3 Kg, With MS Office)
+2024-12-18 00:39:03,646 closing the current tab
+2024-12-18 00:39:03,703 going back to to the products tab
+2024-12-18 00:39:03,829 Opeing the product in new tab
+2024-12-18 00:39:06,866 going to new tab which is open
+2024-12-18 00:39:09,902 Product name fetched HP Pavilion Intel Core i5 12th Gen 1235U - (16 GB/512 GB SSD/Windows 11 Home) 14-dv2014TU Thin and Light Laptop  (14 inch, Natural Silver, 1.41 Kg, With MS Office)
+2024-12-18 00:39:10,080 closing the current tab
+2024-12-18 00:39:10,135 going back to to the products tab
+2024-12-18 00:39:13,374 127.0.0.1 - - [18/Dec/2024 00:39:13] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:39:13,572 127.0.0.1 - - [18/Dec/2024 00:39:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:40:21,244 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:40:21,246 [33mPress CTRL+C to quit[0m
+2024-12-18 00:40:27,224 127.0.0.1 - - [18/Dec/2024 00:40:27] "GET / HTTP/1.1" 200 -
+2024-12-18 00:40:27,304 127.0.0.1 - - [18/Dec/2024 00:40:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:40:48,797 Flipkart Homepage
+2024-12-18 00:40:51,818 Sending search String
+2024-12-18 00:40:58,903 found product links
+2024-12-18 00:41:01,340 127.0.0.1 - - [18/Dec/2024 00:41:01] "POST /review HTTP/1.1" 200 -
+2024-12-18 00:41:01,369 127.0.0.1 - - [18/Dec/2024 00:41:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:43:10,366 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 00:43:10,366 [33mPress CTRL+C to quit[0m
+2024-12-18 00:43:24,338 127.0.0.1 - - [18/Dec/2024 00:43:24] "GET / HTTP/1.1" 200 -
+2024-12-18 00:43:24,536 127.0.0.1 - - [18/Dec/2024 00:43:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 00:43:36,122 Flipkart Homepage
+2024-12-18 00:43:39,152 Sending search String
+2024-12-18 00:43:45,741 found product links
+2024-12-18 00:43:45,863 Opeing the product in new tab
+2024-12-18 00:43:49,632 going to new tab which is open
+2024-12-18 00:43:52,683 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 00:43:52,956 closing the current tab
+2024-12-18 00:43:53,036 going back to to the products tab
+2024-12-18 00:43:53,210 Opeing the product in new tab
+2024-12-18 00:43:56,256 going to new tab which is open
+2024-12-18 00:43:59,304 Product name fetched Apple iPhone 16 (Black, 128 GB)
+2024-12-18 00:43:59,527 closing the current tab
+2024-12-18 00:43:59,589 going back to to the products tab
+2024-12-18 00:43:59,715 Opeing the product in new tab
+2024-12-18 00:44:02,756 going to new tab which is open
+2024-12-18 00:44:05,802 Product name fetched Apple iPhone 16 (Ultramarine, 128 GB)
+2024-12-18 00:44:06,036 closing the current tab
+2024-12-18 00:44:06,098 going back to to the products tab
+2024-12-18 00:44:06,259 Opeing the product in new tab
+2024-12-18 00:44:09,314 going to new tab which is open
+2024-12-18 00:44:12,316 Error extracting details: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB906CC5+28821]
+	(No symbol) [0x00007FF7AB873850]
+	(No symbol) [0x00007FF7AB71578A]
+	(No symbol) [0x00007FF7AB6EF4F5]
+	(No symbol) [0x00007FF7AB796247]
+	(No symbol) [0x00007FF7AB7AECE2]
+	(No symbol) [0x00007FF7AB78F0A3]
+	(No symbol) [0x00007FF7AB75A778]
+	(No symbol) [0x00007FF7AB75B8E1]
+	GetHandleVerifier [0x00007FF7ABC3FCCD+3408029]
+	GetHandleVerifier [0x00007FF7ABC5743F+3504143]
+	GetHandleVerifier [0x00007FF7ABC4B61D+3455469]
+	GetHandleVerifier [0x00007FF7AB9CBDCB+835995]
+	(No symbol) [0x00007FF7AB87EB6F]
+	(No symbol) [0x00007FF7AB87A824]
+	(No symbol) [0x00007FF7AB87A9BD]
+	(No symbol) [0x00007FF7AB86A1A9]
+	BaseThreadInitThunk [0x00007FFA1EA4259D+29]
+	RtlUserThreadStart [0x00007FFA2036AF38+40]
+
+2024-12-18 00:44:12,316 closing the current tab
+2024-12-18 00:44:12,317 Error: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB906CC5+28821]
+	(No symbol) [0x00007FF7AB873850]
+	(No symbol) [0x00007FF7AB71578A]
+	(No symbol) [0x00007FF7AB700866]
+	(No symbol) [0x00007FF7AB701D1F]
+	(No symbol) [0x00007FF7AB715DD3]
+	(No symbol) [0x00007FF7AB6EEFCD]
+	(No symbol) [0x00007FF7AB79D699]
+	(No symbol) [0x00007FF7AB78F2C0]
+	(No symbol) [0x00007FF7AB75A778]
+	(No symbol) [0x00007FF7AB75B8E1]
+	GetHandleVerifier [0x00007FF7ABC3FCCD+3408029]
+	GetHandleVerifier [0x00007FF7ABC5743F+3504143]
+	GetHandleVerifier [0x00007FF7ABC4B61D+3455469]
+	GetHandleVerifier [0x00007FF7AB9CBDCB+835995]
+	(No symbol) [0x00007FF7AB87EB6F]
+	(No symbol) [0x00007FF7AB87A824]
+	(No symbol) [0x00007FF7AB87A9BD]
+	(No symbol) [0x00007FF7AB86A1A9]
+	BaseThreadInitThunk [0x00007FFA1EA4259D+29]
+	RtlUserThreadStart [0x00007FFA2036AF38+40]
+
+2024-12-18 00:44:12,317 127.0.0.1 - - [18/Dec/2024 00:44:12] "POST /review HTTP/1.1" 200 -

@@ -20,6 +20,6 @@ clickon = browser.find_element(By.LINK_TEXT,"News")
 clickon.click()
 time.sleep(3)
 news = browser.find_elements(By.CLASS_NAME,"SoAPf")
-file = open("news.pdf","w")
+file = open("news.txt","w")
 for i in news:
     file.write(i.text)

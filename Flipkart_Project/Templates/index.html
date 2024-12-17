@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Flipkart Product Review Scraper</h1>
+        <form action="/review" method="POST">
+            <input type="text" name="content" placeholder="Enter product name (e.g., iPhone)" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
