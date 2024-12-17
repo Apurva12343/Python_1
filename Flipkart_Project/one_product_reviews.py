@@ -5,9 +5,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import time
 import logging
+import pymongo
 logging.basicConfig(filename='scrapper.log',level=logging.INFO, format='%(asctime)s %(message)s')
 app = Flask(__name__)
-
 @app.route("/", methods=["GET"])
 def homepage():
     return render_template("index.html")
@@ -70,7 +70,13 @@ def index():
                         "CommentHead": k.text,
                         "Comment": l.text
                     })
-
+                try:
+                       client = pymongo.MongoClient("mongodb+srv://iamapurvaaryan:Apurva@cluster0.lzgwt20.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Connect to MongoDB (adjust URI as needed)
+                       db = client["one_product_flipkart_reviews"]  # Database name
+                       collection = db["reviews"]
+                       collection.insert_many(reviews_data)
+                except Exception as e:
+                    logging.error("error in mongodb")
             except Exception as e:
                 logging.error(f"Error extracting details: {e}")
 

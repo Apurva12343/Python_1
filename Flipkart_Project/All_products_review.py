@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-
+import pymongo
 import time
 import logging
 logging.basicConfig(filename='scrapper.log',level=logging.INFO, format='%(asctime)s %(message)s')
@@ -72,7 +72,6 @@ def index():
                             "CommentHead": k.text,
                             "Comment": l.text
                         })
-
                 except Exception as e:
                     logging.error(f"Error extracting details: {e}")
 
@@ -83,10 +82,14 @@ def index():
                 # Switch back to the main tab
                 logging.info("going back to to the products tab")
                 browser.switch_to.window(browser.window_handles[0])
-
             # Quit the browser
             browser.quit()
-
+            logging.info("going to upload data to mongodb")
+            client = pymongo.MongoClient("mongodb+srv://iamapurvaaryan:Apurva@cluster0.lzgwt20.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Connect to MongoDB (adjust URI as needed)
+            db = client["All_product_flipkart_reviews"]  # Database name
+            collection = db["reviews"]
+            collection.insert_many(reviews_data)
+            logging.info("data uploaded successfully to mongodb")
             return render_template("result.html", reviews=reviews_data)
 
         except Exception as e:

@@ -24,3 +24,578 @@
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.31.61:5000
 2024-12-18 02:27:24,259 [33mPress CTRL+C to quit[0m
+2024-12-18 02:41:45,188 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:41:45,188 [33mPress CTRL+C to quit[0m
+2024-12-18 02:41:55,726 192.168.31.61 - - [18/Dec/2024 02:41:55] "GET / HTTP/1.1" 200 -
+2024-12-18 02:41:55,818 192.168.31.61 - - [18/Dec/2024 02:41:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:41:55,907 192.168.31.61 - - [18/Dec/2024 02:41:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-18 02:42:06,694 Flipkart Homepage
+2024-12-18 02:42:09,740 Sending search String
+2024-12-18 02:42:15,774 found product links
+2024-12-18 02:42:15,841 Opeing the product in new tab
+2024-12-18 02:42:19,373 going to new tab which is open
+2024-12-18 02:42:22,402 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 02:42:22,475 Error extracting details: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2024-12-18 02:42:22,475 closing the current tab
+2024-12-18 02:42:22,540 going back to to the products tab
+2024-12-18 02:42:25,707 192.168.31.61 - - [18/Dec/2024 02:42:25] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:42:25,735 192.168.31.61 - - [18/Dec/2024 02:42:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:43:43,044 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:43:43,045 [33mPress CTRL+C to quit[0m
+2024-12-18 02:43:53,764 192.168.31.61 - - [18/Dec/2024 02:43:53] "GET / HTTP/1.1" 200 -
+2024-12-18 02:43:53,857 192.168.31.61 - - [18/Dec/2024 02:43:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:44:03,025 Flipkart Homepage
+2024-12-18 02:44:06,042 Sending search String
+2024-12-18 02:44:12,009 found product links
+2024-12-18 02:44:12,168 Opeing the product in new tab
+2024-12-18 02:44:15,295 going to new tab which is open
+2024-12-18 02:44:18,335 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 02:44:18,993 Inserted review data for Apple iPhone 16 (Ultramarine, 256 GB) into MongoDB
+2024-12-18 02:44:19,088 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: one_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761e9aa5044e22deab6a0e5') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761e9aa5044e22deab6a0e5')}, 'op': {'Product': 'Apple iPhone 16 (Ultramarine, 256 GB)', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'iOS is always amazing.', '_id': ObjectId('6761e9aa5044e22deab6a0e5')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 02:44:19,089 closing the current tab
+2024-12-18 02:44:19,158 going back to to the products tab
+2024-12-18 02:44:22,411 192.168.31.61 - - [18/Dec/2024 02:44:22] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:44:22,435 192.168.31.61 - - [18/Dec/2024 02:44:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:48:42,302 Flipkart Homepage
+2024-12-18 02:48:45,322 Sending search String
+2024-12-18 02:48:51,011 found product links
+2024-12-18 02:48:51,121 Opeing the product in new tab
+2024-12-18 02:48:54,276 going to new tab which is open
+2024-12-18 02:48:57,302 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 02:48:57,445 Inserted review data for Apple iPhone 16 (Ultramarine, 256 GB) into MongoDB
+2024-12-18 02:48:57,564 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: one_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761eac15044e22deab6a0e7') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761eac15044e22deab6a0e7')}, 'op': {'Product': 'Apple iPhone 16 (Ultramarine, 256 GB)', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'iOS is always amazing.', '_id': ObjectId('6761eac15044e22deab6a0e7')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 02:48:57,564 closing the current tab
+2024-12-18 02:48:57,637 going back to to the products tab
+2024-12-18 02:49:00,853 192.168.31.61 - - [18/Dec/2024 02:49:00] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:49:00,872 192.168.31.61 - - [18/Dec/2024 02:49:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:52:29,084 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:52:29,084 [33mPress CTRL+C to quit[0m
+2024-12-18 02:52:37,779 192.168.31.61 - - [18/Dec/2024 02:52:37] "GET / HTTP/1.1" 200 -
+2024-12-18 02:52:37,900 192.168.31.61 - - [18/Dec/2024 02:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:53:08,356 Flipkart Homepage
+2024-12-18 02:53:11,373 Sending search String
+2024-12-18 02:53:17,061 found product links
+2024-12-18 02:53:17,129 Opeing the product in new tab
+2024-12-18 02:53:20,210 going to new tab which is open
+2024-12-18 02:53:23,235 Product name fetched SAMSUNG 60.96 cm (24 inch) Full HD IPS Panel Flicker-Free, HDMI, Display Port, Bezel-less Design Flat Monitor (LS24C330GAWXXL)  (AMD Free Sync, Response Time: 4 ms, 100 Hz Refresh Rate)
+2024-12-18 02:53:24,834 Inserted review data for SAMSUNG 60.96 cm (24 inch) Full HD IPS Panel Flicker-Free, HDMI, Display Port, Bezel-less Design Flat Monitor (LS24C330GAWXXL)  (AMD Free Sync, Response Time: 4 ms, 100 Hz Refresh Rate) into MongoDB
+2024-12-18 02:53:25,689 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: one_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761ebcb541f4daea2933b98') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761ebcb541f4daea2933b98')}, 'op': {'Product': 'SAMSUNG 60.96 cm (24 inch) Full HD IPS Panel Flicker-Free, HDMI, Display Port, Bezel-less Design Flat Monitor (LS24C330GAWXXL)  (AMD Free Sync, Response Time: 4 ms, 100 Hz Refresh Rate)', 'Name': 'shaik saleem', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Good', '_id': ObjectId('6761ebcb541f4daea2933b98')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 02:53:25,689 closing the current tab
+2024-12-18 02:53:25,759 going back to to the products tab
+2024-12-18 02:53:28,903 192.168.31.61 - - [18/Dec/2024 02:53:28] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:53:28,929 192.168.31.61 - - [18/Dec/2024 02:53:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:56:04,958 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:56:04,958 [33mPress CTRL+C to quit[0m
+2024-12-18 02:56:17,437 192.168.31.61 - - [18/Dec/2024 02:56:17] "GET / HTTP/1.1" 200 -
+2024-12-18 02:56:17,504 192.168.31.61 - - [18/Dec/2024 02:56:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:56:31,430 Flipkart Homepage
+2024-12-18 02:56:34,457 Sending search String
+2024-12-18 02:56:40,520 found product links
+2024-12-18 02:56:40,673 Opeing the product in new tab
+2024-12-18 02:56:43,723 going to new tab which is open
+2024-12-18 02:56:46,762 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-18 02:56:47,297 Error extracting details: Collection._insert_one() missing 5 required positional arguments: 'ordered', 'write_concern', 'op_id', 'bypass_doc_val', and 'session'
+2024-12-18 02:56:47,298 closing the current tab
+2024-12-18 02:56:47,361 going back to to the products tab
+2024-12-18 02:56:50,545 192.168.31.61 - - [18/Dec/2024 02:56:50] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:56:50,573 192.168.31.61 - - [18/Dec/2024 02:56:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:02:23,947 192.168.31.61 - - [18/Dec/2024 03:02:23] "GET / HTTP/1.1" 200 -
+2024-12-18 03:02:23,968 192.168.31.61 - - [18/Dec/2024 03:02:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:06:00,794 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 03:06:00,794 [33mPress CTRL+C to quit[0m
+2024-12-18 03:06:09,811 192.168.31.61 - - [18/Dec/2024 03:06:09] "GET / HTTP/1.1" 200 -
+2024-12-18 03:06:09,915 192.168.31.61 - - [18/Dec/2024 03:06:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:06:20,950 Flipkart Homepage
+2024-12-18 03:06:23,965 Sending search String
+2024-12-18 03:06:29,559 found product links
+2024-12-18 03:06:29,628 Opeing the product in new tab
+2024-12-18 03:06:32,647 going to new tab which is open
+2024-12-18 03:06:35,676 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 03:06:37,231 closing the current tab
+2024-12-18 03:06:37,300 going back to to the products tab
+2024-12-18 03:06:40,441 192.168.31.61 - - [18/Dec/2024 03:06:40] "POST /review HTTP/1.1" 200 -
+2024-12-18 03:06:40,463 192.168.31.61 - - [18/Dec/2024 03:06:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:09:13,629 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 03:09:13,629 [33mPress CTRL+C to quit[0m
+2024-12-18 03:09:24,764 192.168.31.61 - - [18/Dec/2024 03:09:24] "GET / HTTP/1.1" 200 -
+2024-12-18 03:09:24,901 192.168.31.61 - - [18/Dec/2024 03:09:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:09:40,194 Flipkart Homepage
+2024-12-18 03:09:43,208 Sending search String
+2024-12-18 03:09:49,082 found product links
+2024-12-18 03:09:49,157 Opeing the product in new tab
+2024-12-18 03:09:52,218 going to new tab which is open
+2024-12-18 03:09:55,249 Product name fetched SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)  (12 GB RAM)
+2024-12-18 03:09:56,931 closing the current tab
+2024-12-18 03:09:56,998 going back to to the products tab
+2024-12-18 03:09:57,080 Opeing the product in new tab
+2024-12-18 03:10:00,098 going to new tab which is open
+2024-12-18 03:10:03,123 Product name fetched SAMSUNG Galaxy S24+ 5G (Onyx Black, 256 GB)  (12 GB RAM)
+2024-12-18 03:10:04,142 error in mongodb
+2024-12-18 03:10:04,142 closing the current tab
+2024-12-18 03:10:04,208 going back to to the products tab
+2024-12-18 03:10:04,271 Opeing the product in new tab
+2024-12-18 03:10:07,291 going to new tab which is open
+2024-12-18 03:10:10,316 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)  (12 GB RAM)
+2024-12-18 03:10:11,376 error in mongodb
+2024-12-18 03:10:11,376 closing the current tab
+2024-12-18 03:10:11,442 going back to to the products tab
+2024-12-18 03:10:11,499 Opeing the product in new tab
+2024-12-18 03:10:14,538 going to new tab which is open
+2024-12-18 03:10:17,565 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)  (12 GB RAM)
+2024-12-18 03:10:18,592 error in mongodb
+2024-12-18 03:10:18,592 closing the current tab
+2024-12-18 03:10:18,660 going back to to the products tab
+2024-12-18 03:10:18,735 Opeing the product in new tab
+2024-12-18 03:10:21,756 going to new tab which is open
+2024-12-18 03:10:24,781 Product name fetched SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)  (8 GB RAM)
+2024-12-18 03:10:25,738 error in mongodb
+2024-12-18 03:10:25,738 closing the current tab
+2024-12-18 03:10:25,797 going back to to the products tab
+2024-12-18 03:10:25,859 Opeing the product in new tab
+2024-12-18 03:10:28,885 going to new tab which is open
+2024-12-18 03:10:31,913 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)  (12 GB RAM)
+2024-12-18 03:10:32,932 error in mongodb
+2024-12-18 03:10:32,932 closing the current tab
+2024-12-18 03:10:33,000 going back to to the products tab
+2024-12-18 03:10:33,062 Opeing the product in new tab
+2024-12-18 03:10:36,081 going to new tab which is open
+2024-12-18 03:10:39,112 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)  (12 GB RAM)
+2024-12-18 03:10:40,012 error in mongodb
+2024-12-18 03:10:40,012 closing the current tab
+2024-12-18 03:10:40,080 going back to to the products tab
+2024-12-18 03:10:40,145 Opeing the product in new tab
+2024-12-18 03:10:43,168 going to new tab which is open
+2024-12-18 03:10:46,191 Product name fetched SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)  (8 GB RAM)
+2024-12-18 03:10:47,172 error in mongodb
+2024-12-18 03:10:47,172 closing the current tab
+2024-12-18 03:10:47,226 going back to to the products tab
+2024-12-18 03:10:47,306 Opeing the product in new tab
+2024-12-18 03:10:50,328 going to new tab which is open
+2024-12-18 03:10:53,352 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)  (12 GB RAM)
+2024-12-18 03:10:54,336 error in mongodb
+2024-12-18 03:10:54,336 closing the current tab
+2024-12-18 03:10:54,392 going back to to the products tab
+2024-12-18 03:10:54,450 Opeing the product in new tab
+2024-12-18 03:10:57,467 going to new tab which is open
+2024-12-18 03:11:00,493 Product name fetched SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)  (8 GB RAM)
+2024-12-18 03:11:01,762 error in mongodb
+2024-12-18 03:11:01,762 closing the current tab
+2024-12-18 03:11:01,828 going back to to the products tab
+2024-12-18 03:11:01,888 Opeing the product in new tab
+2024-12-18 03:11:04,910 going to new tab which is open
+2024-12-18 03:11:07,942 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)  (12 GB RAM)
+2024-12-18 03:11:08,977 error in mongodb
+2024-12-18 03:11:08,977 closing the current tab
+2024-12-18 03:11:09,036 going back to to the products tab
+2024-12-18 03:11:09,171 Opeing the product in new tab
+2024-12-18 03:11:12,194 going to new tab which is open
+2024-12-18 03:11:15,221 Product name fetched SAMSUNG Galaxy S24 5G (Marble Gray, 256 GB)  (8 GB RAM)
+2024-12-18 03:11:16,264 error in mongodb
+2024-12-18 03:11:16,264 closing the current tab
+2024-12-18 03:11:16,333 going back to to the products tab
+2024-12-18 03:11:16,394 Opeing the product in new tab
+2024-12-18 03:11:19,413 going to new tab which is open
+2024-12-18 03:11:22,436 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)  (12 GB RAM)
+2024-12-18 03:11:23,333 error in mongodb
+2024-12-18 03:11:23,333 closing the current tab
+2024-12-18 03:11:23,394 going back to to the products tab
+2024-12-18 03:11:23,451 Opeing the product in new tab
+2024-12-18 03:11:26,471 going to new tab which is open
+2024-12-18 03:11:29,498 Product name fetched SAMSUNG Galaxy S24 5G (Onyx Black, 128 GB)  (8 GB RAM)
+2024-12-18 03:11:30,488 error in mongodb
+2024-12-18 03:11:30,488 closing the current tab
+2024-12-18 03:11:30,548 going back to to the products tab
+2024-12-18 03:11:30,616 Opeing the product in new tab
+2024-12-18 03:11:33,634 going to new tab which is open
+2024-12-18 03:11:36,666 Product name fetched SAMSUNG Galaxy S24 FE 5G (Blue, 256 GB)  (8 GB RAM)
+2024-12-18 03:11:37,692 error in mongodb
+2024-12-18 03:11:37,692 closing the current tab
+2024-12-18 03:11:37,753 going back to to the products tab
+2024-12-18 03:11:37,818 Opeing the product in new tab
+2024-12-18 03:11:40,841 going to new tab which is open
+2024-12-18 03:11:43,868 Product name fetched SAMSUNG Galaxy S24 FE 5G (Mint, 256 GB)  (8 GB RAM)
+2024-12-18 03:11:44,938 error in mongodb
+2024-12-18 03:11:44,939 closing the current tab
+2024-12-18 03:11:44,993 going back to to the products tab
+2024-12-18 03:11:45,075 Opeing the product in new tab
+2024-12-18 03:11:48,098 going to new tab which is open
+2024-12-18 03:11:51,123 Product name fetched SAMSUNG Galaxy S24 FE 5G (Graphite, 256 GB)  (8 GB RAM)
+2024-12-18 03:11:52,178 error in mongodb
+2024-12-18 03:11:52,179 closing the current tab
+2024-12-18 03:11:52,248 going back to to the products tab
+2024-12-18 03:11:52,315 Opeing the product in new tab
+2024-12-18 03:11:55,342 going to new tab which is open
+2024-12-18 03:11:58,374 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)  (12 GB RAM)
+2024-12-18 03:11:59,502 error in mongodb
+2024-12-18 03:11:59,502 closing the current tab
+2024-12-18 03:11:59,559 going back to to the products tab
+2024-12-18 03:11:59,629 Opeing the product in new tab
+2024-12-18 03:12:02,652 going to new tab which is open
+2024-12-18 03:12:05,678 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)  (12 GB RAM)
+2024-12-18 03:12:07,056 error in mongodb
+2024-12-18 03:12:07,056 closing the current tab
+2024-12-18 03:12:07,123 going back to to the products tab
+2024-12-18 03:12:07,176 Opeing the product in new tab
+2024-12-18 03:12:10,194 going to new tab which is open
+2024-12-18 03:12:13,218 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Orange, 256 GB)  (12 GB RAM)
+2024-12-18 03:12:14,374 error in mongodb
+2024-12-18 03:12:14,374 closing the current tab
+2024-12-18 03:12:14,437 going back to to the products tab
+2024-12-18 03:12:14,504 Opeing the product in new tab
+2024-12-18 03:12:17,523 going to new tab which is open
+2024-12-18 03:12:20,548 Product name fetched SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)  (8 GB RAM)
+2024-12-18 03:12:21,622 error in mongodb
+2024-12-18 03:12:21,622 closing the current tab
+2024-12-18 03:12:21,679 going back to to the products tab
+2024-12-18 03:12:21,731 Opeing the product in new tab
+2024-12-18 03:12:24,751 going to new tab which is open
+2024-12-18 03:12:27,779 Product name fetched SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 512 GB)  (12 GB RAM)
+2024-12-18 03:12:28,948 error in mongodb
+2024-12-18 03:12:28,949 closing the current tab
+2024-12-18 03:12:29,016 going back to to the products tab
+2024-12-18 03:12:29,075 Opeing the product in new tab
+2024-12-18 03:12:32,096 going to new tab which is open
+2024-12-18 03:12:35,123 Product name fetched SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)  (8 GB RAM)
+2024-12-18 03:12:36,216 error in mongodb
+2024-12-18 03:12:36,216 closing the current tab
+2024-12-18 03:12:36,273 going back to to the products tab
+2024-12-18 03:12:36,327 Opeing the product in new tab
+2024-12-18 03:12:39,348 going to new tab which is open
+2024-12-18 03:12:42,387 Product name fetched SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)  (8 GB RAM)
+2024-12-18 03:12:43,546 error in mongodb
+2024-12-18 03:12:43,547 closing the current tab
+2024-12-18 03:12:43,611 going back to to the products tab
+2024-12-18 03:12:46,763 192.168.31.61 - - [18/Dec/2024 03:12:46] "POST /review HTTP/1.1" 200 -
+2024-12-18 03:12:46,783 192.168.31.61 - - [18/Dec/2024 03:12:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:16:12,902 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 03:16:12,902 [33mPress CTRL+C to quit[0m
+2024-12-18 03:16:38,954 192.168.31.61 - - [18/Dec/2024 03:16:38] "GET / HTTP/1.1" 200 -
+2024-12-18 03:16:39,144 192.168.31.61 - - [18/Dec/2024 03:16:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:16:49,443 Flipkart Homepage
+2024-12-18 03:16:52,464 Sending search String
+2024-12-18 03:16:58,040 found product links
+2024-12-18 03:16:58,111 Opeing the product in new tab
+2024-12-18 03:17:01,131 going to new tab which is open
+2024-12-18 03:17:04,155 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-18 03:17:04,269 going to upload data to mongodb
+2024-12-18 03:17:05,688 data uploaded successfully to mongodb
+2024-12-18 03:17:05,688 closing the current tab
+2024-12-18 03:17:05,755 going back to to the products tab
+2024-12-18 03:17:05,816 Opeing the product in new tab
+2024-12-18 03:17:08,834 going to new tab which is open
+2024-12-18 03:17:11,857 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-18 03:17:11,982 going to upload data to mongodb
+2024-12-18 03:17:12,805 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:12,806 closing the current tab
+2024-12-18 03:17:12,862 going back to to the products tab
+2024-12-18 03:17:12,926 Opeing the product in new tab
+2024-12-18 03:17:15,943 going to new tab which is open
+2024-12-18 03:17:18,966 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN93HN/A  (13.3 inch, Silver, 1.29 kg)
+2024-12-18 03:17:19,090 going to upload data to mongodb
+2024-12-18 03:17:20,012 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:20,012 closing the current tab
+2024-12-18 03:17:20,080 going back to to the products tab
+2024-12-18 03:17:20,151 Opeing the product in new tab
+2024-12-18 03:17:23,171 going to new tab which is open
+2024-12-18 03:17:26,198 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGND3HN/A  (13.3 inch, Gold, 1.29 kg)
+2024-12-18 03:17:26,323 going to upload data to mongodb
+2024-12-18 03:17:27,188 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:27,188 closing the current tab
+2024-12-18 03:17:27,253 going back to to the products tab
+2024-12-18 03:17:27,312 Opeing the product in new tab
+2024-12-18 03:17:30,336 going to new tab which is open
+2024-12-18 03:17:33,362 Product name fetched Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)
+2024-12-18 03:17:33,496 going to upload data to mongodb
+2024-12-18 03:17:34,383 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:34,383 closing the current tab
+2024-12-18 03:17:34,440 going back to to the products tab
+2024-12-18 03:17:34,512 Opeing the product in new tab
+2024-12-18 03:17:37,534 going to new tab which is open
+2024-12-18 03:17:40,567 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY23HN/A  (13.6 Inch, Starlight, 1.24 kg)
+2024-12-18 03:17:40,726 going to upload data to mongodb
+2024-12-18 03:17:41,613 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:41,613 closing the current tab
+2024-12-18 03:17:41,671 going back to to the products tab
+2024-12-18 03:17:41,734 Opeing the product in new tab
+2024-12-18 03:17:44,752 going to new tab which is open
+2024-12-18 03:17:47,776 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 03:17:47,887 going to upload data to mongodb
+2024-12-18 03:17:48,729 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:48,729 closing the current tab
+2024-12-18 03:17:48,789 going back to to the products tab
+2024-12-18 03:17:48,847 Opeing the product in new tab
+2024-12-18 03:17:51,873 going to new tab which is open
+2024-12-18 03:17:54,900 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXY3HN/A  (13.6 Inch, Silver, 1.24 Kg)
+2024-12-18 03:17:55,080 going to upload data to mongodb
+2024-12-18 03:17:55,939 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:17:55,939 closing the current tab
+2024-12-18 03:17:56,003 going back to to the products tab
+2024-12-18 03:17:56,074 Opeing the product in new tab
+2024-12-18 03:17:59,095 going to new tab which is open
+2024-12-18 03:18:02,126 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXT3HN/A  (13 Inch, Starlight, 1.24 Kg)
+2024-12-18 03:18:02,263 going to upload data to mongodb
+2024-12-18 03:18:03,171 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:03,171 closing the current tab
+2024-12-18 03:18:03,238 going back to to the products tab
+2024-12-18 03:18:03,315 Opeing the product in new tab
+2024-12-18 03:18:06,337 going to new tab which is open
+2024-12-18 03:18:09,366 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXQ3HN/A  (13 Inch, Silver, 1.24 Kg)
+2024-12-18 03:18:09,507 going to upload data to mongodb
+2024-12-18 03:18:10,655 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:10,655 closing the current tab
+2024-12-18 03:18:10,720 going back to to the products tab
+2024-12-18 03:18:10,794 Opeing the product in new tab
+2024-12-18 03:18:13,822 going to new tab which is open
+2024-12-18 03:18:16,845 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY43HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 03:18:16,959 going to upload data to mongodb
+2024-12-18 03:18:17,869 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:17,869 closing the current tab
+2024-12-18 03:18:17,933 going back to to the products tab
+2024-12-18 03:18:17,984 Opeing the product in new tab
+2024-12-18 03:18:21,002 going to new tab which is open
+2024-12-18 03:18:24,024 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLXX3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)
+2024-12-18 03:18:24,138 going to upload data to mongodb
+2024-12-18 03:18:25,092 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:25,093 closing the current tab
+2024-12-18 03:18:25,149 going back to to the products tab
+2024-12-18 03:18:25,212 Opeing the product in new tab
+2024-12-18 03:18:28,243 going to new tab which is open
+2024-12-18 03:18:31,276 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRYT3HN/A  (15 Inch, Starlight, 1.51 Kg)
+2024-12-18 03:18:31,412 going to upload data to mongodb
+2024-12-18 03:18:32,383 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:32,383 closing the current tab
+2024-12-18 03:18:32,438 going back to to the products tab
+2024-12-18 03:18:32,493 Opeing the product in new tab
+2024-12-18 03:18:35,520 going to new tab which is open
+2024-12-18 03:18:38,544 Product name fetched Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXV3HN/A  (13 Inch, Midnight, 1.24 Kg)
+2024-12-18 03:18:38,665 going to upload data to mongodb
+2024-12-18 03:18:39,577 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:39,577 closing the current tab
+2024-12-18 03:18:39,638 going back to to the products tab
+2024-12-18 03:18:39,701 Opeing the product in new tab
+2024-12-18 03:18:42,718 going to new tab which is open
+2024-12-18 03:18:45,767 Product name fetched Apple MacBook AIR Apple M2 - (16 GB/1 TB SSD/Mac OS Monterey) MLY43HN/A  (13.6 Inch, Midnight, 1.24 Kg)
+2024-12-18 03:18:45,825 going to upload data to mongodb
+2024-12-18 03:18:46,977 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:46,977 closing the current tab
+2024-12-18 03:18:47,042 going back to to the products tab
+2024-12-18 03:18:47,128 Opeing the product in new tab
+2024-12-18 03:18:50,149 going to new tab which is open
+2024-12-18 03:18:53,171 Product name fetched Apple MacBook Air Apple M3 - (16 GB/1 TB SSD/macOS Sonoma) MXCR3HN/A  (13 Inch, Midnight, 1.24 Kg)
+2024-12-18 03:18:53,207 going to upload data to mongodb
+2024-12-18 03:18:54,259 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:18:54,259 closing the current tab
+2024-12-18 03:18:54,319 going back to to the products tab
+2024-12-18 03:18:54,398 Opeing the product in new tab
+2024-12-18 03:18:57,420 going to new tab which is open
+2024-12-18 03:19:00,446 Product name fetched Apple MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY03HN/A  (13.6 Inch, Silver, 1.24 kg)
+2024-12-18 03:19:00,577 going to upload data to mongodb
+2024-12-18 03:19:01,537 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:01,537 closing the current tab
+2024-12-18 03:19:01,596 going back to to the products tab
+2024-12-18 03:19:01,654 Opeing the product in new tab
+2024-12-18 03:19:04,673 going to new tab which is open
+2024-12-18 03:19:07,698 Product name fetched Apple MacBook Air Apple M3 - (16 GB/256 GB SSD/macOS Sonoma) MXCV3HN/A  (13 Inch, Starlight, 1.24 Kg)
+2024-12-18 03:19:07,734 going to upload data to mongodb
+2024-12-18 03:19:08,663 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:08,663 closing the current tab
+2024-12-18 03:19:08,726 going back to to the products tab
+2024-12-18 03:19:08,791 Opeing the product in new tab
+2024-12-18 03:19:11,812 going to new tab which is open
+2024-12-18 03:19:14,836 Product name fetched Apple MacBook Air Intel Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A  (13.3 inch, Silver, 1.35 kg)
+2024-12-18 03:19:14,959 going to upload data to mongodb
+2024-12-18 03:19:16,227 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:16,227 closing the current tab
+2024-12-18 03:19:16,286 going back to to the products tab
+2024-12-18 03:19:16,368 Opeing the product in new tab
+2024-12-18 03:19:19,389 going to new tab which is open
+2024-12-18 03:19:22,427 Product name fetched Apple MacBook Pro Apple M2 Max - (32 GB/1 TB SSD/macOS Ventura) MPHG3HN/A  (14 Inch, Space Grey, 1.63 Kg)
+2024-12-18 03:19:22,468 going to upload data to mongodb
+2024-12-18 03:19:23,378 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:23,378 closing the current tab
+2024-12-18 03:19:23,443 going back to to the products tab
+2024-12-18 03:19:23,575 Opeing the product in new tab
+2024-12-18 03:19:26,595 going to new tab which is open
+2024-12-18 03:19:29,617 Product name fetched Apple MacBook Pro Apple M3 Pro - (18 GB/512 GB SSD/macOS Sonoma) MRW13HN/A  (16 Inch, Space Black, 2.14 Kg)
+2024-12-18 03:19:29,653 going to upload data to mongodb
+2024-12-18 03:19:30,645 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:30,645 closing the current tab
+2024-12-18 03:19:30,707 going back to to the products tab
+2024-12-18 03:19:30,771 Opeing the product in new tab
+2024-12-18 03:19:33,887 going to new tab which is open
+2024-12-18 03:19:36,910 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRXR3HN/A  (13 Inch, Silver, 1.24 Kg)
+2024-12-18 03:19:37,026 going to upload data to mongodb
+2024-12-18 03:19:37,939 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:37,939 closing the current tab
+2024-12-18 03:19:37,997 going back to to the products tab
+2024-12-18 03:19:38,098 Opeing the product in new tab
+2024-12-18 03:19:41,115 going to new tab which is open
+2024-12-18 03:19:44,139 Product name fetched Apple MacBook Air Apple M1 - (8 GB/512 GB SSD/Mac OS Big Sur) Z12400092  (13.3 inch, Space Grey, 1.29 kg)
+2024-12-18 03:19:44,253 going to upload data to mongodb
+2024-12-18 03:19:45,219 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:45,219 closing the current tab
+2024-12-18 03:19:45,342 going back to to the products tab
+2024-12-18 03:19:45,435 Opeing the product in new tab
+2024-12-18 03:19:48,451 going to new tab which is open
+2024-12-18 03:19:51,474 Product name fetched Apple MacBook Air Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MRYQ3HN/A  (15 Inch, Silver, 1.51 Kg)
+2024-12-18 03:19:51,587 going to upload data to mongodb
+2024-12-18 03:19:52,573 Error extracting details: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: All_product_flipkart_reviews.reviews index: _id_ dup key: { _id: ObjectId('6761f158cd50eafc48ba1718') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6761f158cd50eafc48ba1718')}, 'op': {'Product': 'Apple MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A  (13.6 Inch, Space Grey, 1.24 Kg)', 'Name': 'Piyush Khare', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Loved it, it's my first MacBook that I earned from my hardwork \U0001f97a\u2764\ufe0f", '_id': ObjectId('6761f158cd50eafc48ba1718')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2024-12-18 03:19:52,573 closing the current tab
+2024-12-18 03:19:52,639 going back to to the products tab
+2024-12-18 03:19:55,783 192.168.31.61 - - [18/Dec/2024 03:19:55] "POST /review HTTP/1.1" 200 -
+2024-12-18 03:19:55,799 192.168.31.61 - - [18/Dec/2024 03:19:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:24:59,086 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 03:24:59,086 [33mPress CTRL+C to quit[0m
+2024-12-18 03:25:09,432 192.168.31.61 - - [18/Dec/2024 03:25:09] "GET / HTTP/1.1" 200 -
+2024-12-18 03:25:09,527 192.168.31.61 - - [18/Dec/2024 03:25:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 03:25:32,444 Flipkart Homepage
+2024-12-18 03:25:35,459 Sending search String
+2024-12-18 03:25:41,487 found product links
+2024-12-18 03:25:41,564 Opeing the product in new tab
+2024-12-18 03:25:44,593 going to new tab which is open
+2024-12-18 03:25:47,619 Product name fetched Apple iPhone 15 (Black, 128 GB)
+2024-12-18 03:25:47,754 closing the current tab
+2024-12-18 03:25:47,813 going back to to the products tab
+2024-12-18 03:25:47,894 Opeing the product in new tab
+2024-12-18 03:25:50,915 going to new tab which is open
+2024-12-18 03:25:53,939 Product name fetched Apple iPhone 15 (Green, 128 GB)
+2024-12-18 03:25:54,057 closing the current tab
+2024-12-18 03:25:54,118 going back to to the products tab
+2024-12-18 03:25:54,177 Opeing the product in new tab
+2024-12-18 03:25:57,197 going to new tab which is open
+2024-12-18 03:26:00,221 Product name fetched Apple iPhone 15 (Pink, 128 GB)
+2024-12-18 03:26:00,340 closing the current tab
+2024-12-18 03:26:00,396 going back to to the products tab
+2024-12-18 03:26:00,452 Opeing the product in new tab
+2024-12-18 03:26:03,477 going to new tab which is open
+2024-12-18 03:26:06,502 Product name fetched Apple iPhone 15 (Blue, 128 GB)
+2024-12-18 03:26:06,623 closing the current tab
+2024-12-18 03:26:06,690 going back to to the products tab
+2024-12-18 03:26:06,757 Opeing the product in new tab
+2024-12-18 03:26:09,776 going to new tab which is open
+2024-12-18 03:26:12,801 Product name fetched Apple iPhone 15 (Yellow, 128 GB)
+2024-12-18 03:26:12,915 closing the current tab
+2024-12-18 03:26:12,975 going back to to the products tab
+2024-12-18 03:26:13,030 Opeing the product in new tab
+2024-12-18 03:26:16,048 going to new tab which is open
+2024-12-18 03:26:19,081 Product name fetched Apple iPhone 15 (Black, 512 GB)
+2024-12-18 03:26:19,213 closing the current tab
+2024-12-18 03:26:19,279 going back to to the products tab
+2024-12-18 03:26:19,364 Opeing the product in new tab
+2024-12-18 03:26:22,382 going to new tab which is open
+2024-12-18 03:26:25,411 Product name fetched Apple iPhone 15 (Blue, 512 GB)
+2024-12-18 03:26:25,537 closing the current tab
+2024-12-18 03:26:25,592 going back to to the products tab
+2024-12-18 03:26:25,679 Opeing the product in new tab
+2024-12-18 03:26:28,703 going to new tab which is open
+2024-12-18 03:26:31,727 Product name fetched Apple iPhone 15 (Black, 256 GB)
+2024-12-18 03:26:31,851 closing the current tab
+2024-12-18 03:26:31,912 going back to to the products tab
+2024-12-18 03:26:31,975 Opeing the product in new tab
+2024-12-18 03:26:34,994 going to new tab which is open
+2024-12-18 03:26:38,018 Product name fetched Apple iPhone 15 (Green, 256 GB)
+2024-12-18 03:26:38,130 closing the current tab
+2024-12-18 03:26:38,189 going back to to the products tab
+2024-12-18 03:26:38,242 Opeing the product in new tab
+2024-12-18 03:26:41,260 going to new tab which is open
+2024-12-18 03:26:44,283 Product name fetched Apple iPhone 15 (Yellow, 512 GB)
+2024-12-18 03:26:44,399 closing the current tab
+2024-12-18 03:26:44,467 going back to to the products tab
+2024-12-18 03:26:44,539 Opeing the product in new tab
+2024-12-18 03:26:47,556 going to new tab which is open
+2024-12-18 03:26:50,579 Product name fetched Apple iPhone 15 (Pink, 256 GB)
+2024-12-18 03:26:50,691 closing the current tab
+2024-12-18 03:26:50,752 going back to to the products tab
+2024-12-18 03:26:50,814 Opeing the product in new tab
+2024-12-18 03:26:53,832 going to new tab which is open
+2024-12-18 03:26:56,855 Product name fetched Apple iPhone 15 (Blue, 256 GB)
+2024-12-18 03:26:56,968 closing the current tab
+2024-12-18 03:26:57,032 going back to to the products tab
+2024-12-18 03:26:57,091 Opeing the product in new tab
+2024-12-18 03:27:00,109 going to new tab which is open
+2024-12-18 03:27:03,132 Product name fetched Apple iPhone 15 (Yellow, 256 GB)
+2024-12-18 03:27:03,244 closing the current tab
+2024-12-18 03:27:03,304 going back to to the products tab
+2024-12-18 03:27:03,362 Opeing the product in new tab
+2024-12-18 03:27:06,379 going to new tab which is open
+2024-12-18 03:27:09,409 Product name fetched Apple iPhone 15 (Pink, 512 GB)
+2024-12-18 03:27:09,521 closing the current tab
+2024-12-18 03:27:09,584 going back to to the products tab
+2024-12-18 03:27:09,645 Opeing the product in new tab
+2024-12-18 03:27:12,662 going to new tab which is open
+2024-12-18 03:27:15,685 Product name fetched Apple iPhone 15 (Green, 512 GB)
+2024-12-18 03:27:15,797 closing the current tab
+2024-12-18 03:27:15,856 going back to to the products tab
+2024-12-18 03:27:15,910 Opeing the product in new tab
+2024-12-18 03:27:18,930 going to new tab which is open
+2024-12-18 03:27:21,954 Product name fetched Apple iPhone 15 Plus (Black, 128 GB)
+2024-12-18 03:27:22,068 closing the current tab
+2024-12-18 03:27:22,126 going back to to the products tab
+2024-12-18 03:27:22,185 Opeing the product in new tab
+2024-12-18 03:27:25,203 going to new tab which is open
+2024-12-18 03:27:28,226 Product name fetched Apple iPhone 15 Plus (Green, 128 GB)
+2024-12-18 03:27:28,347 closing the current tab
+2024-12-18 03:27:28,412 going back to to the products tab
+2024-12-18 03:27:28,467 Opeing the product in new tab
+2024-12-18 03:27:31,485 going to new tab which is open
+2024-12-18 03:27:34,511 Product name fetched Apple iPhone 15 Plus (Pink, 128 GB)
+2024-12-18 03:27:34,629 closing the current tab
+2024-12-18 03:27:34,688 going back to to the products tab
+2024-12-18 03:27:34,745 Opeing the product in new tab
+2024-12-18 03:27:37,762 going to new tab which is open
+2024-12-18 03:27:40,795 Product name fetched Apple iPhone 15 Plus (Blue, 128 GB)
+2024-12-18 03:27:40,999 closing the current tab
+2024-12-18 03:27:41,068 going back to to the products tab
+2024-12-18 03:27:41,168 Opeing the product in new tab
+2024-12-18 03:27:44,198 going to new tab which is open
+2024-12-18 03:27:47,225 Product name fetched Apple iPhone 15 Plus (Green, 512 GB)
+2024-12-18 03:27:47,342 closing the current tab
+2024-12-18 03:27:47,406 going back to to the products tab
+2024-12-18 03:27:47,474 Opeing the product in new tab
+2024-12-18 03:27:50,504 going to new tab which is open
+2024-12-18 03:27:53,529 Product name fetched Apple iPhone 15 Plus (Black, 512 GB)
+2024-12-18 03:27:53,676 closing the current tab
+2024-12-18 03:27:53,732 going back to to the products tab
+2024-12-18 03:27:53,841 Opeing the product in new tab
+2024-12-18 03:27:56,866 going to new tab which is open
+2024-12-18 03:27:59,898 Product name fetched Apple iPhone 15 Pro (Black Titanium, 512 GB)
+2024-12-18 03:28:00,157 closing the current tab
+2024-12-18 03:28:00,220 going back to to the products tab
+2024-12-18 03:28:00,294 Opeing the product in new tab
+2024-12-18 03:28:03,313 going to new tab which is open
+2024-12-18 03:28:06,343 Product name fetched Apple iPhone 15 Plus (Blue, 256 GB)
+2024-12-18 03:28:06,457 closing the current tab
+2024-12-18 03:28:06,511 going back to to the products tab
+2024-12-18 03:28:06,566 Opeing the product in new tab
+2024-12-18 03:28:09,597 going to new tab which is open
+2024-12-18 03:28:12,619 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 03:28:12,746 closing the current tab
+2024-12-18 03:28:12,815 going back to to the products tab
+2024-12-18 03:28:15,938 going to upload data to mongodb
+2024-12-18 03:28:17,431 data uploaded successfully to mongodb
+2024-12-18 03:28:17,437 192.168.31.61 - - [18/Dec/2024 03:28:17] "POST /review HTTP/1.1" 200 -
+2024-12-18 03:28:17,465 192.168.31.61 - - [18/Dec/2024 03:28:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
