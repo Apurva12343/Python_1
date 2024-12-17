@@ -1,0 +1,90 @@
+2024-12-18 01:57:58,624 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 01:57:58,625 [33mPress CTRL+C to quit[0m
+2024-12-18 02:01:41,528 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:01:41,528 [33mPress CTRL+C to quit[0m
+2024-12-18 02:02:12,751 127.0.0.1 - - [18/Dec/2024 02:02:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-18 02:02:16,537 127.0.0.1 - - [18/Dec/2024 02:02:16] "GET / HTTP/1.1" 200 -
+2024-12-18 02:02:16,656 127.0.0.1 - - [18/Dec/2024 02:02:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:02:29,476 Flipkart Homepage
+2024-12-18 02:02:32,500 Sending search String
+2024-12-18 02:02:38,198 Error: 'list' object has no attribute 'click'
+2024-12-18 02:02:38,199 127.0.0.1 - - [18/Dec/2024 02:02:38] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:07:23,193 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:07:23,193 [33mPress CTRL+C to quit[0m
+2024-12-18 02:07:38,415 127.0.0.1 - - [18/Dec/2024 02:07:38] "GET / HTTP/1.1" 200 -
+2024-12-18 02:07:38,481 127.0.0.1 - - [18/Dec/2024 02:07:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:07:47,422 Flipkart Homepage
+2024-12-18 02:07:50,441 Sending search String
+2024-12-18 02:07:56,475 found product links
+2024-12-18 02:07:56,490 Error extracting details: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'_6EBuvT')]//span"}
+  (Session info: chrome=131.0.6778.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60B2E6CC5+28821]
+	(No symbol) [0x00007FF60B253850]
+	(No symbol) [0x00007FF60B0F578A]
+	(No symbol) [0x00007FF60B1491BE]
+	(No symbol) [0x00007FF60B1494AC]
+	(No symbol) [0x00007FF60B192647]
+	(No symbol) [0x00007FF60B16F33F]
+	(No symbol) [0x00007FF60B18F412]
+	(No symbol) [0x00007FF60B16F0A3]
+	(No symbol) [0x00007FF60B13A778]
+	(No symbol) [0x00007FF60B13B8E1]
+	GetHandleVerifier [0x00007FF60B61FCCD+3408029]
+	GetHandleVerifier [0x00007FF60B63743F+3504143]
+	GetHandleVerifier [0x00007FF60B62B61D+3455469]
+	GetHandleVerifier [0x00007FF60B3ABDCB+835995]
+	(No symbol) [0x00007FF60B25EB6F]
+	(No symbol) [0x00007FF60B25A824]
+	(No symbol) [0x00007FF60B25A9BD]
+	(No symbol) [0x00007FF60B24A1A9]
+	BaseThreadInitThunk [0x00007FFA1EA4259D+29]
+	RtlUserThreadStart [0x00007FFA2036AF38+40]
+
+2024-12-18 02:07:56,490 closing the current tab
+2024-12-18 02:07:56,666 going back to to the products tab
+2024-12-18 02:07:58,376 Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF60B2E6CC5+28821]
+	(No symbol) [0x00007FF60B253850]
+	(No symbol) [0x00007FF60B0F55B9]
+	(No symbol) [0x00007FF60B13A48E]
+	(No symbol) [0x00007FF60B13B8E1]
+	GetHandleVerifier [0x00007FF60B61FCCD+3408029]
+	GetHandleVerifier [0x00007FF60B63743F+3504143]
+	GetHandleVerifier [0x00007FF60B62B61D+3455469]
+	GetHandleVerifier [0x00007FF60B3ABDCB+835995]
+	(No symbol) [0x00007FF60B25EB6F]
+	(No symbol) [0x00007FF60B25A824]
+	(No symbol) [0x00007FF60B25A9BD]
+	(No symbol) [0x00007FF60B24A1A9]
+	BaseThreadInitThunk [0x00007FFA1EA4259D+29]
+	RtlUserThreadStart [0x00007FFA2036AF38+40]
+
+2024-12-18 02:07:58,376 127.0.0.1 - - [18/Dec/2024 02:07:58] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:21:14,458 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.61:5000
+2024-12-18 02:21:14,459 [33mPress CTRL+C to quit[0m
+2024-12-18 02:21:34,994 127.0.0.1 - - [18/Dec/2024 02:21:34] "GET / HTTP/1.1" 200 -
+2024-12-18 02:21:35,146 127.0.0.1 - - [18/Dec/2024 02:21:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-18 02:21:44,711 Flipkart Homepage
+2024-12-18 02:21:47,728 Sending search String
+2024-12-18 02:21:53,397 found product links
+2024-12-18 02:21:53,481 Opeing the product in new tab
+2024-12-18 02:21:56,737 going to new tab which is open
+2024-12-18 02:21:59,778 Product name fetched Apple iPhone 16 (Ultramarine, 256 GB)
+2024-12-18 02:21:59,960 closing the current tab
+2024-12-18 02:22:00,032 going back to to the products tab
+2024-12-18 02:22:03,298 127.0.0.1 - - [18/Dec/2024 02:22:03] "POST /review HTTP/1.1" 200 -
+2024-12-18 02:22:03,323 127.0.0.1 - - [18/Dec/2024 02:22:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
