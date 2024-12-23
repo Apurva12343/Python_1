@@ -1,0 +1,13 @@
+body{background-color: aqua;}
+header{text-align: center;}
+div.menu{
+    background-color: aquamarine;
+}
+.navigation_bar_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
